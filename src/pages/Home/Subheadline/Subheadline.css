@@ -1,0 +1,14 @@
+.home-subheadline {
+	margin-bottom: calc(24px + 96px);
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--text-colour-secondary);
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+	.home-subheadline {
+		margin-bottom: calc(24px + 24px);
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "list": [
+    {
+      "id": "email",
+      "name": "Email Address",
+      "title": "Email Me",
+      "value": "danieljamesdavies12@gmail.com",
+      "image": "email.png"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "title": "View My Code on GitHub",
+      "value": "DanielJamesDavies",
+      "link": "https://github.com/DanielJamesDavies",
+      "image": "github.png"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "title": "Find Me on LinkedIn",
+      "value": "dan-james-davies",
+      "link": "https://www.linkedin.com/in/dan-james-davies/",
+      "image": "linkedin.png"
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "title": "Follow Me on Twitter",
+      "value": "@DanielJDavies12",
+      "link": "https://twitter.com/DanielJDavies12",
+      "image": "twitter.png"
+    }
+  ]
+}

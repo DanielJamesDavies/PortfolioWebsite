@@ -1,0 +1,18 @@
+.curriculum-vitae-title {
+	margin: 24px 0;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+	.curriculum-vitae-title {
+		font-size: 4.16vw;
+	}
+}
+
+@media (max-width: 768px) {
+	.curriculum-vitae-title {
+		margin-top: 24px;
+		font-size: 32px;
+	}
+}

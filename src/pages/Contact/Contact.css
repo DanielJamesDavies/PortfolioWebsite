@@ -1,0 +1,18 @@
+.contact-title {
+	margin: 24px 0;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+	.contact-title {
+		font-size: 4.16vw;
+	}
+}
+
+@media (max-width: 768px) {
+	.contact-title {
+		margin-top: 24px;
+		font-size: 40px;
+	}
+}

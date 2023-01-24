@@ -1,0 +1,22 @@
+.home-headline {
+	margin-top: 96px;
+	padding: 12px 0;
+	font-size: 68px;
+	font-weight: 600;
+	color: var(--text-colour-primary);
+	text-align: left;
+	transition: 0.2s;
+}
+
+@media (max-width: 1200px) {
+	.home-headline {
+		font-size: 4.16vw;
+	}
+}
+
+@media (max-width: 768px) {
+	.home-headline {
+		margin-top: 24px;
+		font-size: 32px;
+	}
+}

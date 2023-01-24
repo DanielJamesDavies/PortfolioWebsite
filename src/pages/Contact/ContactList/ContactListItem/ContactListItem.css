@@ -1,0 +1,65 @@
+.contact-list-item {
+	margin: 24px 0;
+}
+
+.contact-list-item-clickable {
+	cursor: pointer;
+}
+
+.contact-list-item-title {
+	position: relative;
+	margin-bottom: 24px;
+	padding-left: 12px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.contact-list-item-title::before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(calc(-50% + 1px));
+	display: block;
+	content: "";
+	width: 4px;
+	height: calc(100% - 8px);
+	background: var(--text-colour-blue);
+}
+
+.contact-list-item-value-container {
+	display: flex;
+	align-items: center;
+	gap: 0 24px;
+	padding: 0 16px;
+	box-sizing: content-box;
+}
+
+.contact-list-item-image {
+	--contactListItemImageWidth: 38px;
+	min-width: var(--contactListItemImageWidth);
+	width: var(--contactListItemImageWidth);
+	min-height: var(--contactListItemImageWidth);
+	height: var(--contactListItemImageWidth);
+	object-fit: contain;
+	transition: 0.2s;
+	filter: invert(1) brightness(200%);
+}
+
+.contact-list-item-clickable:hover .contact-list-item-image {
+	filter: invert(1) brightness(0%);
+}
+
+.contact-list-item-value {
+	color: var(--text-colour-secondary);
+	font-size: 18px;
+}
+
+.contact-list-item-clickable:hover .contact-list-item-value {
+	color: var(--text-colour-primary);
+}
+
+@media (max-width: 768px) {
+	.contact-list-item-title {
+		font-size: 32px;
+	}
+}

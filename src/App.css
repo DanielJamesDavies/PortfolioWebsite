@@ -1,38 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&display=swap");
+
+:root {
+	--colour-grey: #e7e7f0;
+	--colour-grey-light: #f7f7fa;
+	--colour-grey-dark: #d8d8e6;
+	--colour-blue: #0058ff;
+	--colour-blue-tint: #3379ff;
+
+	--text-colour-primary: #1e1e1e;
+	--text-colour-secondary: #828282;
+	--text-colour-tertiary: #a3a3a3;
+	--text-colour-blue: #0058ff;
+	--text-colour-blue-tint: #9bbdff;
+
+	--full-vh: 100vh;
+	--max-width: 1500px;
+	--app-padding: 12px;
+}
+
+::-webkit-scrollbar {
+	width: calc(78x + (2 * 5px));
+	background: var(--colour-grey-light);
+}
+
+::-webkit-scrollbar-thumb {
+	border: 5px solid var(--colour-grey-light);
+	background-clip: padding-box;
+	border-radius: 9999px;
+	background: var(--colour-grey-dark);
+}
+
+body {
+	margin: 0;
+	background: var(--colour-grey-light);
+	color: var(--text-colour-primary);
+	font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+button,
+button:focus {
+	font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: 0;
+	outline: 0;
+}
+
 .App {
-  text-align: center;
+	margin: 0 auto;
+	padding: 0 var(--app-padding);
+	width: calc(100% - (2 * var(--app-padding)));
+	max-width: var(--max-width);
+	min-height: var(--full-vh);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 1200px) {
+	.App {
+		overflow-x: hidden;
+	}
 }

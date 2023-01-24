@@ -1,0 +1,19 @@
+{
+  "id": "fyp",
+  "title": "The Prediction of Energy Consumption of Algorithm Implementations",
+  "description": "An AI model that predicts energy consumptions of algorithm implementations.",
+  "tags": [
+    "Python",
+    "Pytorch",
+    "NumPy",
+    "SciPy",
+    "JavaScript",
+    "Node.js"
+  ],
+  "images": [
+    "system_overview_diagram.png",
+    "neural_networks_results_table_sorted_by_descending_testCorrelAvg.png",
+    "sorting-i1-03-feb-rec.png",
+    "neural_network_architecture_designs.png"
+  ]
+}

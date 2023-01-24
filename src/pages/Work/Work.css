@@ -1,0 +1,26 @@
+.work-page .work-list-container {
+	margin-top: 24px;
+}
+
+.work-page .work-list-title {
+	margin-bottom: 24px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+	.work-page .work-list-title {
+		font-size: 4.16vw;
+	}
+}
+
+@media (max-width: 768px) {
+	.work-page .work-list-container {
+		margin-top: 0;
+	}
+
+	.work-page .work-list-title {
+		margin-top: 24px;
+		font-size: 40px;
+	}
+}

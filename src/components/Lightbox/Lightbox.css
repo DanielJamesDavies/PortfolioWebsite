@@ -1,0 +1,143 @@
+.lightbox {
+	position: fixed;
+	z-index: 100000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+
+	touch-action: none;
+}
+
+.lightbox-hidden {
+	display: none;
+}
+
+.lightbox-image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 2;
+
+	width: 100%;
+	height: 100%;
+
+	transform-origin: 0px 0px;
+	transform: scale(3) translate(0px, 0px);
+	object-fit: contain;
+	user-select: none;
+}
+
+.lightbox-image {
+	position: relative;
+	min-width: 24%;
+	max-width: 100%;
+	max-height: calc(100vh - 120px);
+	width: calc(100% - 240px);
+	cursor: grab;
+	user-select: none;
+	text-align: center;
+}
+
+.lightbox-image img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
+.lightbox-image-is-pixelated img {
+	image-rendering: pixelated;
+}
+
+.lightbox-arrow-btn,
+.lightbox-close-btn {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	border-radius: 100%;
+
+	--lightboxBtnWidth: 32px;
+	min-width: var(--lightboxBtnWidth);
+	width: var(--lightboxBtnWidth);
+	min-height: var(--lightboxBtnWidth);
+	height: var(--lightboxBtnWidth);
+
+	background: var(--colour-grey);
+	color: var(--text-colour-primary);
+	font-size: 18px;
+	transition: 0.2s;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.lightbox-arrow-btn:hover {
+	opacity: 0.8;
+}
+
+.lightbox-arrow-btn-inactive {
+	opacity: 0.2 !important;
+}
+
+.lightbox-arrow-btn-left {
+	left: 8px;
+}
+
+.lightbox-arrow-btn-right {
+	right: 8px;
+}
+
+.lightbox-close-btn {
+	top: 24px;
+	right: 8px;
+	font-size: 20px;
+}
+
+.lightbox-background {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	content: "";
+
+	width: 100vw;
+	height: 100vh;
+
+	background: #000;
+	opacity: 0.5;
+}
+
+@media (max-width: 750px) {
+	.lightbox-image {
+		width: calc(100% - 64px);
+	}
+
+	.lightbox-arrow-btn,
+	.lightbox-close-btn {
+		--lightboxBtnWidth: 32px;
+		font-size: 22px;
+	}
+
+	.lightbox-arrow-btn-left {
+		left: 2px;
+	}
+
+	.lightbox-arrow-btn-right {
+		right: 2px;
+	}
+
+	.lightbox-close-btn {
+		top: 20px;
+		right: 2px;
+	}
+}

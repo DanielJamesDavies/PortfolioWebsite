@@ -1,0 +1,101 @@
+.home-technologies-list-container {
+	position: relative;
+	margin: 48px 0;
+	padding: 24px 0;
+	border-radius: 5px;
+
+	width: 100%;
+}
+
+.home-technologies-list-title {
+	position: relative;
+	margin-bottom: 24px;
+	padding-left: 12px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.home-technologies-list-title::before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(calc(-50% + 1px));
+	display: block;
+	content: "";
+	width: 4px;
+	height: calc(100% - 8px);
+	background: var(--text-colour-blue);
+}
+
+.home-technologies-list-level {
+	margin: 24px 0;
+	padding: 0 16px;
+	box-sizing: content-box;
+}
+
+.home-technologies-list-level-competence {
+	margin-bottom: 12px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.home-technologies-list-items {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 6px;
+	width: 100%;
+}
+
+.home-technologies-list-item {
+	display: flex;
+	align-items: center;
+	padding: 8px 24px;
+	border-radius: 12px;
+	background: var(--colour-grey);
+	text-align: left;
+	height: 24px;
+}
+
+.home-technologies-list-item-image {
+	margin-right: 8px;
+	min-width: 24px;
+	max-height: 24px;
+	object-fit: contain;
+}
+
+.home-technologies-list-item-title {
+	font-size: 16px;
+}
+
+@media (max-width: 768px) {
+	.home-technologies-list-container {
+		margin: 24px 0;
+		padding: 0;
+	}
+
+	.home-technologies-list-title {
+		font-size: 32px;
+	}
+
+	.home-technologies-list-level {
+		margin: 24px 0;
+	}
+
+	.home-technologies-list-level-competence {
+		margin-bottom: 6px;
+	}
+
+	.home-technologies-list-item {
+		padding: 5px 10px;
+		border-radius: 8px;
+	}
+
+	.home-technologies-list-item-image {
+		max-height: 24px;
+	}
+
+	.home-technologies-list-item-title {
+		font-size: 14px;
+	}
+}

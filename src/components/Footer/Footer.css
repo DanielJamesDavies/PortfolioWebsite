@@ -1,0 +1,124 @@
+.footer {
+	margin: 48px auto;
+	margin-bottom: 0;
+	padding-bottom: 48px;
+	width: 100%;
+}
+
+.footer-title {
+	position: relative;
+	margin-bottom: 24px;
+	padding-left: 12px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.footer-title::before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(calc(-50% + 1px));
+	display: block;
+	content: "";
+	width: 4px;
+	height: calc(100% - 8px);
+	background: var(--text-colour-blue);
+}
+
+.footer-section-1 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 48px;
+	padding: 0 16px;
+	box-sizing: content-box;
+}
+
+.footer-email-title,
+.footer-links-title,
+.footer-download-cv-btn-title {
+	margin-bottom: 2px;
+	font-size: 16px;
+	color: var(--text-colour-secondary);
+}
+
+.footer-email {
+	line-height: 36px;
+	font-size: 18px;
+}
+
+.footer-links {
+	display: flex;
+	align-items: center;
+	--footerLinkMargin: 8px;
+	margin-left: calc(-1 * var(--footerLinkMargin));
+	width: calc(100% + (2 * var(--footerLinkMargin)));
+}
+
+.footer-link {
+	margin: var(--footerLinkMargin);
+	padding: 0;
+	height: 24px;
+	background: transparent;
+	transition: 0.2s;
+	filter: brightness(200%);
+	cursor: pointer;
+}
+
+.footer-link:hover {
+	filter: brightness(0%);
+}
+
+.footer-link-image {
+	height: inherit;
+	object-fit: contain;
+	filter: invert(1);
+}
+
+.footer-download-cv-btn {
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+	padding: 6px 12px;
+	border-radius: 4px;
+	background: var(--colour-blue);
+	color: #fff;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.footer-download-cv-btn:hover,
+.footer-download-cv-btn:focus {
+	background: var(--colour-blue-tint);
+}
+
+.footer-download-cv-btn-label {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.footer-download-cv-btn-icon {
+	margin-left: 8px;
+	font-size: 16px;
+}
+
+.footer-copyright {
+	display: flex;
+	align-items: center;
+	gap: 0 4px;
+	margin-top: 12px;
+	padding: 0 16px;
+	box-sizing: content-box;
+	font-size: 14px;
+	color: var(--text-colour-secondary);
+}
+
+.footer-copyright-symbol {
+	margin-bottom: -1px;
+	font-size: 18px;
+}
+
+@media (max-width: 768px) {
+	.footer-title {
+		font-size: 32px;
+	}
+}

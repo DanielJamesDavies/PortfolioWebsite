@@ -1,0 +1,20 @@
+.work-list-container {
+	margin: 48px 0;
+	width: 100%;
+	height: max-content;
+	overflow-x: hidden;
+}
+
+.work-list-items {
+	--worklistitem-padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 96px;
+	padding: 0 var(--worklistitem-padding);
+	box-sizing: content-box;
+	width: calc(100% - (2 * var(--worklistitem-padding)));
+}
+
+.work-list-items {
+	margin-bottom: 48px;
+}
