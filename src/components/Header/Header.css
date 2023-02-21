@@ -37,7 +37,8 @@
 	background: transparent;
 	color: var(--text-colour-primary);
 	font-size: 28px;
-	font-weight: 600;
+	font-weight: 700;
+	font-weight: 700;
 	transition: 0.2s;
 	cursor: pointer;
 	text-align: left;
@@ -208,9 +209,9 @@
 
 	background: transparent;
 	color: var(--text-colour-tertiary);
-	font-family: "Roboto Mono", -apple-system, "Segoe UI", "Inter", sans-serif !important;
+	font-family: "Muli", -apple-system, "Segoe UI", sans-serif !important;
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: 700;
 	transition: 0.2s;
 	cursor: pointer;
 }

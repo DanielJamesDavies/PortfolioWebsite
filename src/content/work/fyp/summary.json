@@ -1,7 +1,7 @@
 {
   "id": "fyp",
   "title": "The Prediction of Energy Consumption of Algorithm Implementations",
-  "description": "An AI model that predicts energy consumptions of algorithm implementations.",
+  "description": "A project that produced an AI model that predicts energy consumptions of algorithm implementations.",
   "tags": [
     "Python",
     "Pytorch",

@@ -136,7 +136,7 @@
 	background: var(--colour-grey-dark);
 	color: var(--text-colour-primary);
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 700;
 	transition: 0.2s;
 	opacity: 0.3;
 }
@@ -153,7 +153,7 @@
 	margin: 24px 0;
 	margin-bottom: -6px;
 	font-size: 32px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .work-list-item-links {
@@ -161,7 +161,7 @@
 	gap: 4px;
 	margin: 24px 0;
 	color: var(--text-colour-blue);
-	font-weight: 600;
+	font-weight: 700;
 	vertical-align: middle;
 }
 
@@ -172,7 +172,7 @@
 	background: var(--colour-blue);
 	color: #fff;
 	font-size: 13px;
-	font-weight: 600;
+	font-weight: 700;
 	transition: 0.2s;
 	cursor: pointer;
 }
