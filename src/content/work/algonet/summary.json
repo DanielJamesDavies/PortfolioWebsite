@@ -1,6 +1,7 @@
 {
-  "id": "fyp",
-  "title": "The Prediction of Energy Consumption of Algorithm Implementations",
+  "id": "algonet",
+  "title": "Algonet / The Prediction of Energy Consumption of Algorithm Implementations",
+  "codeUrl": "https://github.com/DanielJamesDavies/Algonet",
   "description": "A project that produced an AI model that predicts energy consumptions of algorithm implementations.",
   "tags": [
     "Python",
