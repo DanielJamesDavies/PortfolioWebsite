@@ -29,12 +29,12 @@
 	--listItemImageHeight: max(
 		200px,
 		min(
-			calc((9 / 16) * var(--workListItemImagesWidthFraction) * 100vw - 2 * var(--app-padding) - - 2 * var(--worklistitem-padding)),
+			calc((9 / 16) * var(--workListItemImagesWidthFraction) * 100vw - 2 * var(--page-padding) - - 2 * var(--worklistitem-padding)),
 			calc(
 				9 / 16 *
 					(
 						12px + var(--workListItemImagesWidthFraction) *
-							(var(--max-width) - 2 * var(--app-padding) - - 2 * var(--worklistitem-padding))
+							(var(--max-width) - 2 * var(--page-padding) - - 2 * var(--worklistitem-padding))
 					)
 			)
 		)

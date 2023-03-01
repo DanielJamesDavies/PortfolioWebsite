@@ -15,7 +15,7 @@
 
 	--full-vh: 100vh;
 	--max-width: 1500px;
-	--app-padding: 12px;
+	--page-padding: 12px;
 }
 
 ::-webkit-scrollbar {
@@ -52,11 +52,10 @@ button:focus {
 }
 
 .App {
-	margin: 0 auto;
-	padding: 0 var(--app-padding);
-	width: calc(100% - (2 * var(--app-padding)));
-	max-width: var(--max-width);
-	min-height: var(--full-vh);
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	min-height: 100vh;
 }
 
 @media (max-width: 1200px) {

@@ -10,6 +10,7 @@
 	padding: 10px 0;
 
 	width: calc(100vw - 24px);
+	width: calc(100vw - (2 * var(--page-padding)));
 	max-width: var(--max-width);
 }
 
