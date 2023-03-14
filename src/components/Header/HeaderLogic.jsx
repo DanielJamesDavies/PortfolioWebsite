@@ -37,7 +37,7 @@ export const HeaderLogic = () => {
 	}
 
 	function navigateToCurriculumVitae(e) {
-		navigateTo("CV Daniel Davies 01-2023.pdf", e.button === 1, true);
+		navigateTo("CV Daniel Davies 02-2023.pdf", e.button === 1, true);
 		setIsDisplayingPages(false);
 	}
 
