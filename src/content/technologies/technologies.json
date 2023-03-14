@@ -1,117 +1,117 @@
 {
-  "list": [
-    {
-      "compentence": "Proficiency in:",
-      "technologies": [
-        {
-          "title": "React",
-          "image": "React.png"
-        },
-        {
-          "title": "JavaScript",
-          "image": "JavaScript.png"
-        },
-        {
-          "title": "HTML",
-          "image": "HTML.png"
-        },
-        {
-          "title": "CSS",
-          "image": "CSS.png"
-        },
-        {
-          "title": "Node.js",
-          "image": "NodeJS.png"
-        },
-        {
-          "title": "Express.js"
-        },
-        {
-          "title": "MongoDB",
-          "image": "MongoDB.png"
-        },
-        {
-          "title": "Mongoose ODM"
-        }
-      ]
-    },
-    {
-      "compentence": "Confidence with:",
-      "technologies": [
-        {
-          "title": "Python",
-          "image": "Python.png"
-        },
-        {
-          "title": "Pytorch",
-          "image": "Pytorch.png"
-        },
-        {
-          "title": "NumPy",
-          "image": "NumPy.png"
-        },
-        {
-          "title": "R",
-          "image": "R.png"
-        },
-        {
-          "title": "Electron.js",
-          "image": "ElectronJS.png"
-        },
-        {
-          "title": "Socket.IO",
-          "image": "SocketIO.png"
-        },
-        {
-          "title": "Git",
-          "image": "Git.png"
-        },
-        {
-          "title": "GitHub",
-          "image": "GitHub.png"
-        },
-        {
-          "title": "Trello",
-          "image": "Trello.png"
-        },
-        {
-          "title": "Figma",
-          "image": "Figma.png"
-        },
-        {
-          "title": "Visual Paradigm",
-          "image": "VisualParadigm.png"
-        },
-        {
-          "title": "Postman",
-          "image": "Postman.png"
-        },
-        {
-          "title": "MySQL",
-          "image": "MySQL.png"
-        },
-        {
-          "title": "Heroku",
-          "image": "Heroku.png"
-        },
-        {
-          "title": "Netlify",
-          "image": "Netlify.png"
-        }
-      ]
-    },
-    {
-      "compentence": "Experience in:",
-      "technologies": [
-        {
-          "title": "Java",
-          "image": "Java.png"
-        },
-        {
-          "title": "Lua",
-          "image": "Lua.png"
-        }
-      ]
-    }
-  ]
+	"list": [
+		{
+			"compentence": "Proficiency in:",
+			"technologies": [
+				{
+					"title": "React",
+					"image": "React.png"
+				},
+				{
+					"title": "JavaScript",
+					"image": "JavaScript.png"
+				},
+				{
+					"title": "HTML",
+					"image": "HTML.png"
+				},
+				{
+					"title": "CSS",
+					"image": "CSS.png"
+				},
+				{
+					"title": "Node.js",
+					"image": "NodeJS.png"
+				},
+				{
+					"title": "Express.js"
+				},
+				{
+					"title": "MongoDB",
+					"image": "MongoDB.png"
+				},
+				{
+					"title": "Mongoose ODM"
+				}
+			]
+		},
+		{
+			"compentence": "Confidence with:",
+			"technologies": [
+				{
+					"title": "Python",
+					"image": "Python.png"
+				},
+				{
+					"title": "PyTorch",
+					"image": "Pytorch.png"
+				},
+				{
+					"title": "NumPy",
+					"image": "NumPy.png"
+				},
+				{
+					"title": "R",
+					"image": "R.png"
+				},
+				{
+					"title": "Electron.js",
+					"image": "ElectronJS.png"
+				},
+				{
+					"title": "Socket.IO",
+					"image": "SocketIO.png"
+				},
+				{
+					"title": "Git",
+					"image": "Git.png"
+				},
+				{
+					"title": "GitHub",
+					"image": "GitHub.png"
+				},
+				{
+					"title": "Trello",
+					"image": "Trello.png"
+				},
+				{
+					"title": "Figma",
+					"image": "Figma.png"
+				},
+				{
+					"title": "Visual Paradigm",
+					"image": "VisualParadigm.png"
+				},
+				{
+					"title": "Postman",
+					"image": "Postman.png"
+				},
+				{
+					"title": "MySQL",
+					"image": "MySQL.png"
+				},
+				{
+					"title": "Heroku",
+					"image": "Heroku.png"
+				},
+				{
+					"title": "Netlify",
+					"image": "Netlify.png"
+				}
+			]
+		},
+		{
+			"compentence": "Experience in:",
+			"technologies": [
+				{
+					"title": "Java",
+					"image": "Java.png"
+				},
+				{
+					"title": "Lua",
+					"image": "Lua.png"
+				}
+			]
+		}
+	]
 }

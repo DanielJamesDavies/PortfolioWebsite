@@ -1,21 +1,13 @@
 {
-  "id": "algonet",
-  "title": "Algonet / The Prediction of Energy Consumption of Algorithm Implementations",
-  "codeUrl": "https://github.com/DanielJamesDavies/Algonet",
-  "description": "A project that produced an AI model that predicts energy consumptions of algorithm implementations.",
-  "tags": [
-    "Python",
-    "Pytorch",
-    "NumPy",
-    "scikit-learn",
-    "SciPy",
-    "JavaScript",
-    "Node.js"
-  ],
-  "images": [
-    "system_overview_diagram.png",
-    "neural_networks_results_table_sorted_by_descending_testCorrelAvg.png",
-    "sorting-i1-03-feb-rec.png",
-    "neural_network_architecture_designs.png"
-  ]
+	"id": "algonet",
+	"title": "Algonet / The Prediction of Energy Consumption of Algorithm Implementations",
+	"codeUrl": "https://github.com/DanielJamesDavies/Algonet",
+	"description": "A project that produced an AI model that predicts energy consumptions of algorithm implementations.",
+	"tags": ["Python", "PyTorch", "NumPy", "scikit-learn", "SciPy", "JavaScript", "Node.js"],
+	"images": [
+		"system_overview_diagram.png",
+		"neural_networks_results_table_sorted_by_descending_testCorrelAvg.png",
+		"sorting-i1-03-feb-rec.png",
+		"neural_network_architecture_designs.png"
+	]
 }
