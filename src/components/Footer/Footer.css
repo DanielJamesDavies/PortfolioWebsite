@@ -62,18 +62,17 @@
 	height: 24px;
 	background: transparent;
 	transition: 0.2s;
-	filter: brightness(200%);
+	filter: brightness(100%);
 	cursor: pointer;
 }
 
 .footer-link:hover {
-	filter: brightness(0%);
+	filter: brightness(300%);
 }
 
 .footer-link-image {
 	height: inherit;
 	object-fit: contain;
-	filter: invert(1);
 }
 
 .footer-download-cv-btn {

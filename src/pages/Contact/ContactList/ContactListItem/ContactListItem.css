@@ -42,11 +42,10 @@
 	height: var(--contactListItemImageWidth);
 	object-fit: contain;
 	transition: 0.2s;
-	filter: invert(1) brightness(200%);
 }
 
 .contact-list-item-clickable:hover .contact-list-item-image {
-	filter: invert(1) brightness(0%);
+	filter: brightness(300%);
 }
 
 .contact-list-item-value {
