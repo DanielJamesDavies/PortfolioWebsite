@@ -16,6 +16,7 @@
     "Heroku"
   ],
   "images": [
+    "demo.gif",
     "landing.gif",
     "login.png"
   ]
