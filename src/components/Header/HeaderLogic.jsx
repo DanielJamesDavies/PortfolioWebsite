@@ -3,6 +3,8 @@ import { useLocation } from "react-router-dom";
 
 import { NavigateTo } from "../../services/NavigateTo";
 
+import contact from "../../content/contact/contact.json";
+
 import myselfImage from "../../content/myself.png";
 
 export const HeaderLogic = () => {
@@ -10,10 +12,9 @@ export const HeaderLogic = () => {
 	const location = useLocation();
 
 	const pages = [
-		{ id: "home", title: ".home()", paths: ["", "home"], navigateTo: navigateToHome },
-		{ id: "work", title: ".work()", paths: ["work"], navigateTo: navigateToWork },
-		{ id: "curriculum-vitae", title: ".curriculumVitae()", paths: ["curriculum-vitae", "cv"], navigateTo: navigateToCurriculumVitae },
-		{ id: "contact", title: ".contact()", paths: ["contact"], navigateTo: navigateToContact },
+		{ id: "home", title: "Home", paths: ["", "home"], navigateTo: navigateToHome },
+		{ id: "work", title: "Work", paths: ["work"], navigateTo: navigateToWork },
+		{ id: "curriculum-vitae", title: "Curriculum Vitae", paths: ["curriculum-vitae", "cv"], navigateTo: navigateToCurriculumVitae },
 	];
 
 	const [isDisplayingPages, setIsDisplayingPages] = useState(false);
@@ -76,6 +77,11 @@ export const HeaderLogic = () => {
 		setMouseOnHeaderName(false);
 	}
 
+	function onSocialBtnNavigateTo(e, url) {
+		navigateTo(url, e.button === 1, true);
+		if (url.substring(0, 6) === "mailto") navigator.clipboard.writeText("danieljamesdavies12@gmail.com");
+	}
+
 	return {
 		location,
 		pages,
@@ -88,5 +94,7 @@ export const HeaderLogic = () => {
 		headerNameWavingHandEmojiRef,
 		startHeaderNameAnimation,
 		endHeaderNameAnimation,
+		contact,
+		onSocialBtnNavigateTo,
 	};
 };

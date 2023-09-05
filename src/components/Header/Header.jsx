@@ -15,6 +15,8 @@ export const Header = () => {
 		headerNameWavingHandEmojiRef,
 		startHeaderNameAnimation,
 		endHeaderNameAnimation,
+		contact,
+		onSocialBtnNavigateTo,
 	} = HeaderLogic();
 
 	return (
@@ -52,6 +54,36 @@ export const Header = () => {
 						onMouseDown={(e) => e.preventDefault()}
 					>
 						{page.title}
+					</button>
+				))}
+				<div className='header-pages-links'>
+					{contact.list.map((item, index) => (
+						<button
+							key={index}
+							className='header-link'
+							onClick={(e) => onSocialBtnNavigateTo(e, item.link)}
+							onAuxClick={(e) => onSocialBtnNavigateTo(e, item.link)}
+							onMouseDown={(e) => e.preventDefault()}
+						>
+							{item.image === undefined ? null : (
+								<img className='header-link-image' src={require("../../content/contact/images/" + item.image)} alt='' />
+							)}
+						</button>
+					))}
+				</div>
+			</div>
+			<div className='header-links'>
+				{contact.list.map((item, index) => (
+					<button
+						key={index}
+						className='header-link'
+						onClick={(e) => onSocialBtnNavigateTo(e, item.link)}
+						onAuxClick={(e) => onSocialBtnNavigateTo(e, item.link)}
+						onMouseDown={(e) => e.preventDefault()}
+					>
+						{item.image === undefined ? null : (
+							<img className='header-link-image' src={require("../../content/contact/images/" + item.image)} alt='' />
+						)}
 					</button>
 				))}
 			</div>

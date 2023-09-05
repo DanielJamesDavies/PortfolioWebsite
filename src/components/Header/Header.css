@@ -7,7 +7,7 @@
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
-	padding: 10px 0;
+	padding: 24px 0;
 
 	width: calc(100vw - 24px);
 	width: calc(100vw - (2 * var(--page-padding)));
@@ -24,9 +24,9 @@
 	content: "";
 
 	width: 100vw;
-	height: 56px;
+	height: 87px;
 
-	background: var(--colour-grey-light);
+	background: var(--colour-grey-primary);
 }
 
 .header-name {
@@ -47,9 +47,9 @@
 
 .header-name-image {
 	margin-right: 10px;
-	padding-bottom: 4px;
+	padding-bottom: 1px;
 	width: 22px;
-	width: 28px;
+	width: 38px;
 }
 
 .header-name-image-waving-hand-emoji,
@@ -200,8 +200,11 @@
 }
 
 .header-pages {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	display: flex;
-	margin-left: auto;
 }
 
 .header-pages-btn {
@@ -233,15 +236,50 @@
 	color: var(--text-colour-primary);
 }
 
-@media (max-width: 900px) {
-	.header-pages-btn {
-		margin: 0 6px;
+.header-links {
+	display: flex;
+	gap: 24px;
+	margin-left: auto;
+}
+
+.header-link {
+	margin: 0;
+	padding: 0;
+	height: 24px;
+	background: transparent;
+	transition: 0.2s;
+	filter: brightness(100%) invert(1) brightness(75%);
+	cursor: pointer;
+}
+
+.header-link:hover {
+	filter: brightness(100%) invert(1);
+}
+
+.header-link-image {
+	border-radius: 2px;
+	height: inherit;
+	object-fit: contain;
+}
+
+.header-pages-links {
+	display: none;
+}
+
+@media (max-width: 1100px) {
+	.header-pages {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		top: 1px;
+		left: unset;
+		transform: translate(0%, 0%);
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 	.header::before {
-		height: 54px;
+		height: 87px;
 	}
 
 	.header-name {
@@ -258,7 +296,7 @@
 
 	.header-pages {
 		position: absolute;
-		top: 54px;
+		top: 87px;
 		left: 50%;
 		transform: translateX(-50%);
 		flex-direction: column;
@@ -267,7 +305,7 @@
 		max-height: 0;
 		width: 100vw;
 		overflow: hidden;
-		background: var(--colour-grey-light);
+		background: var(--colour-grey-primary);
 
 		transition: 0.1s ease, padding 0.1s linear;
 	}
@@ -283,13 +321,16 @@
 	.header-is-displaying-pages .header-pages-background {
 		position: fixed;
 		z-index: -1;
-		top: 54px;
+		top: 87px;
 		left: 50%;
 		transform: translateX(-50%);
 		display: block;
 		content: "";
 		width: 100vw;
-		height: calc(100vh - 54px);
+		height: calc(100vh - 87px);
+		background: #0c0c0cbb;
+		backdrop-filter: blur(3px);
+		transition: background 0.2s;
 	}
 
 	.header-pages-btn {
@@ -298,5 +339,15 @@
 		text-align: left;
 		border-radius: 0;
 		font-size: 18px;
+	}
+
+	.header-pages-links {
+		display: flex;
+		padding: 10px 20px;
+		gap: 20px;
+	}
+
+	.header-links {
+		display: none;
 	}
 }

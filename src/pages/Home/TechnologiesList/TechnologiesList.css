@@ -52,7 +52,7 @@
 	align-items: center;
 	padding: 8px 24px;
 	border-radius: 12px;
-	background: var(--colour-grey);
+	background: var(--colour-grey-secondary);
 	text-align: left;
 	height: 24px;
 }

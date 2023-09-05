@@ -8,8 +8,10 @@ import "./Home.css";
 export const Home = () => {
 	return (
 		<div className='home-page'>
-			<Headline />
-			<Subheadline />
+			<div className='home-primary'>
+				<Headline />
+				<Subheadline />
+			</div>
 			<TechnologiesList />
 			<WorkList />
 		</div>

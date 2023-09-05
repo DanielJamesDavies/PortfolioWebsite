@@ -17,7 +17,7 @@
 	content: "";
 	width: 100%;
 	height: 2px;
-	background: var(--colour-grey);
+	background: var(--colour-grey-secondary);
 }
 
 .work-list-item:last-child::after {
@@ -51,8 +51,8 @@
 }
 
 .work-list-item-image-container-placeholder {
-	background: var(--colour-grey);
-	background: linear-gradient(90deg, var(--colour-grey-dark), var(--colour-grey));
+	background: var(--colour-grey-secondary);
+	background: linear-gradient(90deg, var(--colour-grey-tertiary), var(--colour-grey-secondary));
 }
 
 .work-list-item-images {
@@ -108,7 +108,7 @@
 }
 
 .work-list-item-images-overlay-swipe-btn:hover {
-	background: var(--colour-grey-light);
+	background: var(--colour-grey-primary);
 	color: var(--text-colour-primary);
 }
 
@@ -133,7 +133,7 @@
 	padding: 3px 6px;
 	border-radius: 5px;
 
-	background: var(--colour-grey-dark);
+	background: var(--colour-grey-tertiary);
 	color: var(--text-colour-primary);
 	font-size: 12px;
 	font-weight: 700;
@@ -158,7 +158,7 @@
 
 .work-list-item-links {
 	display: flex;
-	gap: 4px;
+	gap: 8px;
 	margin: 24px 0;
 	color: var(--text-colour-blue);
 	font-weight: 700;
@@ -199,7 +199,7 @@
 	padding: 6px 12px;
 	border-radius: 8px;
 	background: var(--colour-grey-light);
-	background: var(--colour-grey);
+	background: var(--colour-grey-secondary);
 	font-size: 14px;
 }
 

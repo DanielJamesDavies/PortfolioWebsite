@@ -62,12 +62,12 @@
 	height: 24px;
 	background: transparent;
 	transition: 0.2s;
-	filter: brightness(100%);
+	filter: brightness(100%) invert(1) brightness(75%);
 	cursor: pointer;
 }
 
 .footer-link:hover {
-	filter: brightness(300%);
+	filter: brightness(100%) invert(1);
 }
 
 .footer-link-image {

@@ -1,11 +1,11 @@
 .home-headline {
-	margin-top: 96px;
 	padding: 12px 0;
-	font-size: 68px;
+	font-size: 72px;
 	font-weight: 700;
 	color: var(--text-colour-primary);
 	text-align: left;
 	transition: 0.2s;
+	max-width: 1300px;
 }
 
 @media (max-width: 1200px) {
