@@ -3,7 +3,7 @@ import "./CurriculumVitae.css";
 export const CurriculumVitae = () => {
 	return (
 		<div className='curriculum-vitae-page'>
-			<div className='curriculum-vitae-title'>Curriculum Vitae</div>
+			<iframe className='curriculum-vitae-iframe' src='CV Daniel Davies 02-2023.pdf' title='CV' frameBorder={0}></iframe>
 		</div>
 	);
 };

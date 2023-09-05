@@ -1,7 +1,7 @@
 .page-content {
 	margin: 0 auto;
 	padding: 0 var(--page-padding);
-	padding-top: 56px;
+	padding-top: 87px;
 	width: calc(100% - (2 * var(--page-padding)));
 	max-width: var(--max-width);
 	min-height: var(--full-vh);
@@ -9,6 +9,6 @@
 
 @media (max-width: 768px) {
 	.page-content {
-		padding-top: 54px;
+		padding-top: 87px;
 	}
 }
