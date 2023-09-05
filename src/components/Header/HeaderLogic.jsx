@@ -42,11 +42,6 @@ export const HeaderLogic = () => {
 		setIsDisplayingPages(false);
 	}
 
-	function navigateToContact(e) {
-		navigateTo("/contact", e.button === 1);
-		setIsDisplayingPages(false);
-	}
-
 	const [headerNameClassName, setHeaderNameClassName] = useState("header-name");
 	const [mouseOnHeaderName, setMouseOnHeaderName] = useState(false);
 	const [isPlayingHeaderNameAnimation, setIsPlayingHeaderNameAnimation] = useState(false);
