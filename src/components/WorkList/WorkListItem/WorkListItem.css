@@ -95,7 +95,7 @@
 	height: var(--imagesControlsSwipeBtnWidth);
 
 	background: transparent;
-	color: var(--text-colour-tertiary);
+	color: var(--text-colour-secondary);
 	font-size: 16px;
 	transition: 0.2s;
 	opacity: 0;
@@ -104,11 +104,12 @@
 
 .work-list-item-images-container:hover .work-list-item-images-overlay-swipe-btn,
 .work-list-item-images-container:focus .work-list-item-images-overlay-swipe-btn {
-	opacity: 0.6;
+	opacity: 0.5;
+	background: var(--colour-grey-secondary);
 }
 
 .work-list-item-images-overlay-swipe-btn:hover {
-	background: var(--colour-grey-primary);
+	opacity: 1 !important;
 	color: var(--text-colour-primary);
 }
 
@@ -133,10 +134,11 @@
 	padding: 3px 6px;
 	border-radius: 5px;
 
-	background: var(--colour-grey-tertiary);
+	background: var(--colour-grey-secondary);
 	color: var(--text-colour-primary);
 	font-size: 12px;
 	font-weight: 700;
+	letter-spacing: 1px;
 	transition: 0.2s;
 	opacity: 0.3;
 }
