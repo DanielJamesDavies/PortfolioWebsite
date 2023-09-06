@@ -4,12 +4,20 @@
 			"compentence": "Proficiency in:",
 			"technologies": [
 				{
+					"title": "JavaScript",
+					"image": "JavaScript.png"
+				},
+				{
 					"title": "React",
 					"image": "React.png"
 				},
 				{
-					"title": "JavaScript",
-					"image": "JavaScript.png"
+					"title": "Node.js",
+					"image": "NodeJS.png"
+				},
+				{
+					"title": "Python",
+					"image": "Python.png"
 				},
 				{
 					"title": "HTML",
@@ -20,8 +28,8 @@
 					"image": "CSS.png"
 				},
 				{
-					"title": "Node.js",
-					"image": "NodeJS.png"
+					"title": "Make",
+					"image": "Make.png"
 				},
 				{
 					"title": "Express.js"
@@ -32,17 +40,12 @@
 				},
 				{
 					"title": "Mongoose ODM"
-				},
-				{ "title": "Make", "image": "Make.png" }
+				}
 			]
 		},
 		{
 			"compentence": "Confidence with:",
 			"technologies": [
-				{
-					"title": "Python",
-					"image": "Python.png"
-				},
 				{
 					"title": "PyTorch",
 					"image": "PyTorch.png"
@@ -54,6 +57,14 @@
 				{
 					"title": "R",
 					"image": "R.png"
+				},
+				{
+					"title": "GPT Prompting",
+					"image": "GPT.png"
+				},
+				{
+					"title": "Google Cloud Platform",
+					"image": "GCP.png"
 				},
 				{
 					"title": "Electron.js",

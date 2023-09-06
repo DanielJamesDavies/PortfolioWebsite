@@ -1,6 +1,6 @@
 .home-headline {
 	padding: 12px 0;
-	font-size: 74px;
+	font-size: 75px;
 	font-weight: 700;
 	color: var(--text-colour-primary);
 	text-align: left;
@@ -8,15 +8,15 @@
 	max-width: 1300px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 	.home-headline {
-		font-size: 4.16vw;
+		font-size: 5.5vw;
 	}
 }
 
 @media (max-width: 768px) {
 	.home-headline {
 		margin-top: 24px;
-		font-size: 32px;
+		font-size: 38px;
 	}
 }
