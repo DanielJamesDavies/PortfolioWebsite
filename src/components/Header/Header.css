@@ -43,6 +43,9 @@
 	transition: 0.2s;
 	cursor: pointer;
 	text-align: left;
+}
+
+.header-name-text {
 	background: linear-gradient(180deg, #04f -120%, #fff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -58,9 +61,9 @@
 .header-name-image-waving-hand-emoji,
 .header-name-image-waving-hand-emoji-initial {
 	position: absolute;
+	z-index: 4;
 	top: 8px;
 	left: 12px;
-	z-index: 4;
 	font-size: 26px;
 	pointer-events: none;
 	opacity: 0;
