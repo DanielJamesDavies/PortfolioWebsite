@@ -71,7 +71,7 @@ export const WorkListItem = ({ item }) => {
 								onAuxClick={navigateToSite}
 								onMouseDown={(e) => e.preventDefault()}
 							>
-								View Site
+								<div>View Site</div>
 							</button>
 						)}
 						{item.codeUrl === undefined ? null : (
@@ -81,7 +81,7 @@ export const WorkListItem = ({ item }) => {
 								onAuxClick={navigateToCode}
 								onMouseDown={(e) => e.preventDefault()}
 							>
-								Source Code
+								<div>Source Code</div>
 							</button>
 						)}
 					</div>

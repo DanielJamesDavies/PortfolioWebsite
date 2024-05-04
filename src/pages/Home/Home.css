@@ -1,8 +1,14 @@
 .home-primary {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 70vh;
+	height: min(70vh, 540px);
+}
+
+.home-page .work-list-container {
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
 
 .home-page .work-list-title {
@@ -22,7 +28,7 @@
 	content: "";
 	width: 4px;
 	height: calc(100% - 8px);
-	background: var(--text-colour-blue);
+	background: linear-gradient(180deg, var(--colour-blue-tint), var(--colour-blue));
 }
 
 .home-page .work-list-items {

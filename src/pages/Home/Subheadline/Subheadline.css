@@ -1,8 +1,16 @@
 .home-subheadline {
 	font-size: 20px;
 	font-weight: 700;
-	color: var(--text-colour-secondary);
-	text-align: left;
+	background: linear-gradient(180deg, #fff, #9cf);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.home-subheadline-line-break {
+	display: block;
+	content: "";
+	width: 1px;
+	height: 14px;
 }
 
 @media (max-width: 768px) {

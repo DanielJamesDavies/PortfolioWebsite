@@ -9,8 +9,10 @@ export const Home = () => {
 	return (
 		<div className='home-page'>
 			<div className='home-primary'>
-				<Headline />
-				<Subheadline />
+				<div className='home-primary-foreground'>
+					<Headline />
+					<Subheadline />
+				</div>
 			</div>
 			<TechnologiesList />
 			<WorkList />

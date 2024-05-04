@@ -24,7 +24,7 @@
 	content: "";
 	width: 4px;
 	height: calc(100% - 8px);
-	background: var(--text-colour-blue);
+	background: linear-gradient(180deg, var(--colour-blue-tint), var(--colour-blue));
 }
 
 .footer-section-1 {
@@ -76,20 +76,42 @@
 }
 
 .footer-download-cv-btn {
+	position: relative;
 	display: flex;
 	align-items: center;
 	margin: 5px 0;
 	padding: 6px 12px;
-	border-radius: 4px;
-	background: var(--colour-blue);
+	border-radius: 5px;
+	background: var(--colour-blue-tint);
 	color: #fff;
 	transition: 0.2s;
 	cursor: pointer;
 }
 
-.footer-download-cv-btn:hover,
-.footer-download-cv-btn:focus {
-	background: var(--colour-blue-tint);
+.footer-download-cv-btn:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	display: block;
+	content: "";
+	border-radius: inherit;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, var(--colour-blue-tint), var(--colour-blue));
+	opacity: 1;
+	transition: 0.2s;
+}
+
+.footer-download-cv-btn:hover:before,
+.footer-download-cv-btn:focus:before {
+	opacity: 0;
+}
+
+.footer-download-cv-btn-content {
+	z-index: 1;
+	display: flex;
+	align-items: center;
 }
 
 .footer-download-cv-btn-label {

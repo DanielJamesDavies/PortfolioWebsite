@@ -43,8 +43,10 @@ export const Footer = () => {
 						onAuxClick={onDownloadCVBtnClick}
 						onMouseDown={(e) => e.preventDefault()}
 					>
-						<div className='footer-download-cv-btn-label'>Download Curriculum Vitae</div>
-						<FaArrowDown className='footer-download-cv-btn-icon' />
+						<div className='footer-download-cv-btn-content'>
+							<div className='footer-download-cv-btn-label'>Download Curriculum Vitae</div>
+							<FaArrowDown className='footer-download-cv-btn-icon' />
+						</div>
 					</button>
 				</div>
 			</div>

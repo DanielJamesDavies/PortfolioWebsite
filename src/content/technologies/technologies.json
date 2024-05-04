@@ -4,6 +4,26 @@
 			"compentence": "Proficiency in:",
 			"technologies": [
 				{
+					"title": "TensorFlow",
+					"image": "TensorFlow.png"
+				},
+				{
+					"title": "HF Transformers",
+					"image": "HuggingFace.png"
+				},
+				{
+					"title": "PyTorch",
+					"image": "PyTorch.png"
+				},
+				{
+					"title": "Python",
+					"image": "Python.png"
+				},
+				{
+					"title": "R",
+					"image": "R.png"
+				},
+				{
 					"title": "JavaScript",
 					"image": "JavaScript.png"
 				},
@@ -14,10 +34,6 @@
 				{
 					"title": "Node.js",
 					"image": "NodeJS.png"
-				},
-				{
-					"title": "Python",
-					"image": "Python.png"
 				},
 				{
 					"title": "HTML",
@@ -47,16 +63,8 @@
 			"compentence": "Confidence with:",
 			"technologies": [
 				{
-					"title": "PyTorch",
-					"image": "PyTorch.png"
-				},
-				{
 					"title": "NumPy",
 					"image": "NumPy.png"
-				},
-				{
-					"title": "R",
-					"image": "R.png"
 				},
 				{
 					"title": "GPT Prompting",

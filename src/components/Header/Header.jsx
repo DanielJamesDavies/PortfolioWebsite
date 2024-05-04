@@ -84,6 +84,18 @@ export const Header = () => {
 						{item.image === undefined ? null : (
 							<img className='header-link-image' src={require("../../content/contact/images/" + item.image)} alt='' />
 						)}
+						{item?.id !== "email" ? null : (
+							<div
+								tabIndex='0'
+								className='header-link-tooltip'
+								onClick={(e) => onSocialBtnNavigateTo(e, item.link)}
+								onMouseDown={(e) => e.preventDefault()}
+							>
+								{item?.value}
+								<br />
+								Click to Copy
+							</div>
+						)}
 					</button>
 				))}
 			</div>

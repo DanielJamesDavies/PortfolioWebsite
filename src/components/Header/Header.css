@@ -43,6 +43,9 @@
 	transition: 0.2s;
 	cursor: pointer;
 	text-align: left;
+	background: linear-gradient(180deg, #04f -120%, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .header-name-image {
@@ -257,16 +260,20 @@
 }
 
 .header-link {
+	position: relative;
 	margin: 0;
 	padding: 0;
 	height: 24px;
 	background: transparent;
-	transition: 0.2s;
-	filter: brightness(100%) invert(1) brightness(75%);
 	cursor: pointer;
 }
 
-.header-link:hover {
+.header-link img {
+	filter: brightness(100%) invert(1) brightness(75%);
+	transition: 0.2s;
+}
+
+.header-link:hover img {
 	filter: brightness(100%) invert(1);
 }
 
@@ -274,6 +281,28 @@
 	border-radius: 2px;
 	height: inherit;
 	object-fit: contain;
+}
+
+.header-link-tooltip {
+	position: absolute;
+	top: 28px;
+	right: -12px;
+	padding: 4px 6px;
+	border-radius: 5px;
+	background: var(--colour-grey-secondary);
+	color: #fff;
+	text-align: left;
+	opacity: 0;
+	pointer-events: none;
+	transition-delay: 0.7s;
+}
+
+.header-link:hover .header-link-tooltip,
+.header-link .header-link-tooltip:hover,
+.header-link .header-link-tooltip:focus {
+	opacity: 1;
+	pointer-events: all;
+	transition-delay: 0s;
 }
 
 .header-pages-links {
