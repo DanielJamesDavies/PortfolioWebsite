@@ -66,6 +66,10 @@ export const WorkListItemLogic = ({ item }) => {
 		navigateTo(item.siteUrl, e.button === 1, true);
 	}
 
+	function navigateToDemo(e) {
+		navigateTo(item.demoUrl, e.button === 1, true);
+	}
+
 	function navigateToCode(e) {
 		navigateTo(item.codeUrl, e.button === 1, true);
 	}
@@ -77,6 +81,7 @@ export const WorkListItemLogic = ({ item }) => {
 		incrementCurrImageIndex,
 		imagesContainerRef,
 		navigateToSite,
+		navigateToDemo,
 		navigateToCode,
 	};
 };

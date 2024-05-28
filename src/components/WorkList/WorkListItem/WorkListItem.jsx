@@ -12,6 +12,7 @@ export const WorkListItem = ({ item }) => {
 		incrementCurrImageIndex,
 		imagesContainerRef,
 		navigateToSite,
+		navigateToDemo,
 		navigateToCode,
 	} = WorkListItemLogic({ item });
 
@@ -72,6 +73,16 @@ export const WorkListItem = ({ item }) => {
 								onMouseDown={(e) => e.preventDefault()}
 							>
 								<div>View Site</div>
+							</button>
+						)}
+						{item.demoUrl === undefined ? null : (
+							<button
+								className='work-list-item-links-item'
+								onClick={navigateToDemo}
+								onAuxClick={navigateToDemo}
+								onMouseDown={(e) => e.preventDefault()}
+							>
+								<div>View Demo</div>
 							</button>
 						)}
 						{item.codeUrl === undefined ? null : (

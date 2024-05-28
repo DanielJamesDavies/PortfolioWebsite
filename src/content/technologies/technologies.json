@@ -4,20 +4,24 @@
 			"compentence": "Proficiency in:",
 			"technologies": [
 				{
-					"title": "TensorFlow",
-					"image": "TensorFlow.png"
-				},
-				{
-					"title": "HF Transformers",
-					"image": "HuggingFace.png"
+					"title": "Python",
+					"image": "Python.png"
 				},
 				{
 					"title": "PyTorch",
 					"image": "PyTorch.png"
 				},
 				{
-					"title": "Python",
-					"image": "Python.png"
+					"title": "TensorFlow",
+					"image": "TensorFlow.png"
+				},
+				{
+					"title": "Hugging Face Transformers",
+					"image": "HuggingFace.png"
+				},
+				{
+					"title": "NumPy",
+					"image": "NumPy.png"
 				},
 				{
 					"title": "R",
@@ -62,10 +66,6 @@
 		{
 			"compentence": "Confidence with:",
 			"technologies": [
-				{
-					"title": "NumPy",
-					"image": "NumPy.png"
-				},
 				{
 					"title": "GPT Prompting",
 					"image": "GPT.png"

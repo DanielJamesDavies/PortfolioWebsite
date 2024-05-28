@@ -1,0 +1,16 @@
+{
+	"id": "apollo-llm-analyser",
+	"title": "Apollo LLM Analyser",
+	"demoUrl": "https://youtu.be/jNSura9WWoY",
+	"codeUrl": "https://github.com/DanielJamesDavies/Apollo-LLM-Analyser",
+	"description": "A platform to help users conduct interpretability research.",
+	"tags": ["Python", "Flask", "Hugging Face Transformers", "JavaScript", "React", "NumPy", "Pandas"],
+	"images": [
+		"Apollo Demo 1 - frame at 0m49s.jpg",
+		"Apollo Demo 1 - frame at 1m42s.jpg",
+		"Apollo Demo 1 - frame at 1m59s.jpg",
+		"Apollo Demo 1 - frame at 1m18s.jpg",
+		"Apollo Demo 1 - frame at 1m26s.jpg",
+		"Apollo Demo 1 - frame at 0m28s.jpg"
+	]
+}

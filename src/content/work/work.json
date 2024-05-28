@@ -1,6 +1,3 @@
 {
-  "list": [
-    "atlas-story-app",
-    "algonet"
-  ]
+	"list": ["apollo-llm-analyser", "atlas-story-app", "algonet"]
 }
