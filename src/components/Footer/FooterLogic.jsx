@@ -10,7 +10,7 @@ export const FooterLogic = () => {
 	}
 
 	function onDownloadCVBtnClick(e) {
-		navigateTo("CV Daniel Davies 02-2023.pdf", e.button === 1, true);
+		navigateTo("CV Daniel Davies 05-2024.pdf", e.button === 1, true);
 	}
 
 	return { contact, onFooterBtnNavigateTo, onDownloadCVBtnClick };
