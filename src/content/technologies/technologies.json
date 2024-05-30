@@ -20,10 +20,6 @@
 					"image": "Make.png"
 				},
 				{
-					"title": "MySQL",
-					"image": "MySQL.png"
-				},
-				{
 					"title": "HTML",
 					"image": "HTML.png"
 				},
@@ -130,6 +126,10 @@
 				{
 					"title": "MongoDB",
 					"image": "MongoDB.png"
+				},
+				{
+					"title": "MySQL",
+					"image": "MySQL.png"
 				},
 				{
 					"title": "Git",
