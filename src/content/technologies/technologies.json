@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"compentence": "Libraries (Not Exhaustive)",
+			"compentence": "Libraries (Non-Exhaustive)",
 			"technologies": [
 				{
 					"title": "PyTorch",
@@ -90,6 +90,14 @@
 				},
 				{
 					"title": "Express.js"
+				},
+				{
+					"title": "Chart.js",
+					"image": "ChartJs.png"
+				},
+				{
+					"title": "Three.js",
+					"image": "ThreeJs.png"
 				},
 				{
 					"title": "Electron.js",
@@ -154,6 +162,10 @@
 				{
 					"title": "Netlify",
 					"image": "Netlify.png"
+				},
+				{
+					"title": "Firebase",
+					"image": "Firebase.png"
 				}
 			]
 		}
