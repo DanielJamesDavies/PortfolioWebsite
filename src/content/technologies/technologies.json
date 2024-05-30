@@ -1,12 +1,49 @@
 {
 	"list": [
 		{
-			"compentence": "Proficiency in:",
+			"compentence": "Languages",
 			"technologies": [
 				{
 					"title": "Python",
 					"image": "Python.png"
 				},
+				{
+					"title": "JavaScript",
+					"image": "JavaScript.png"
+				},
+				{
+					"title": "R",
+					"image": "R.png"
+				},
+				{
+					"title": "Make",
+					"image": "Make.png"
+				},
+				{
+					"title": "MySQL",
+					"image": "MySQL.png"
+				},
+				{
+					"title": "HTML",
+					"image": "HTML.png"
+				},
+				{
+					"title": "CSS",
+					"image": "CSS.png"
+				},
+				{
+					"title": "Java",
+					"image": "Java.png"
+				},
+				{
+					"title": "Lua",
+					"image": "Lua.png"
+				}
+			]
+		},
+		{
+			"compentence": "Libraries (Not Exhaustive)",
+			"technologies": [
 				{
 					"title": "PyTorch",
 					"image": "PyTorch.png"
@@ -24,12 +61,24 @@
 					"image": "NumPy.png"
 				},
 				{
-					"title": "R",
-					"image": "R.png"
+					"title": "Pandas",
+					"image": "Pandas.png"
 				},
 				{
-					"title": "JavaScript",
-					"image": "JavaScript.png"
+					"title": "scikit-learn",
+					"image": "sci-kit-learn.png"
+				},
+				{
+					"title": "Matplotlib",
+					"image": "Matplotlib.png"
+				},
+				{
+					"title": "Flask",
+					"image": "Flask.png"
+				},
+				{
+					"title": "ggplot2",
+					"image": "ggplot2.png"
 				},
 				{
 					"title": "React",
@@ -40,39 +89,7 @@
 					"image": "NodeJS.png"
 				},
 				{
-					"title": "HTML",
-					"image": "HTML.png"
-				},
-				{
-					"title": "CSS",
-					"image": "CSS.png"
-				},
-				{
-					"title": "Make",
-					"image": "Make.png"
-				},
-				{
 					"title": "Express.js"
-				},
-				{
-					"title": "MongoDB",
-					"image": "MongoDB.png"
-				},
-				{
-					"title": "Mongoose ODM"
-				}
-			]
-		},
-		{
-			"compentence": "Confidence with:",
-			"technologies": [
-				{
-					"title": "GPT Prompting",
-					"image": "GPT.png"
-				},
-				{
-					"title": "Google Cloud Platform",
-					"image": "GCP.png"
 				},
 				{
 					"title": "Electron.js",
@@ -81,6 +98,30 @@
 				{
 					"title": "Socket.IO",
 					"image": "SocketIO.png"
+				},
+				{
+					"title": "Mongoose ODM"
+				}
+			]
+		},
+		{
+			"compentence": "Miscellaneous",
+			"technologies": [
+				{
+					"title": "Model Prompting",
+					"image": "nn.png"
+				},
+				{
+					"title": "Google Cloud Platform",
+					"image": "GCP.png"
+				},
+				{
+					"title": "Tableau",
+					"image": "Tableau.png"
+				},
+				{
+					"title": "MongoDB",
+					"image": "MongoDB.png"
 				},
 				{
 					"title": "Git",
@@ -107,29 +148,12 @@
 					"image": "Postman.png"
 				},
 				{
-					"title": "MySQL",
-					"image": "MySQL.png"
-				},
-				{
 					"title": "Heroku",
 					"image": "Heroku.png"
 				},
 				{
 					"title": "Netlify",
 					"image": "Netlify.png"
-				}
-			]
-		},
-		{
-			"compentence": "Experience in:",
-			"technologies": [
-				{
-					"title": "Java",
-					"image": "Java.png"
-				},
-				{
-					"title": "Lua",
-					"image": "Lua.png"
 				}
 			]
 		}

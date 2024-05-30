@@ -53,7 +53,7 @@ export const Footer = () => {
 			<div className='footer-copyright'>
 				<div>Copyright</div>
 				<div className='footer-copyright-symbol'>©</div>
-				<div>2023 Daniel James Davies</div>
+				<div>2024 Daniel James Davies</div>
 			</div>
 		</div>
 	);
