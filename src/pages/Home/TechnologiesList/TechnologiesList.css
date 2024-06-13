@@ -11,8 +11,8 @@
 	position: relative;
 	margin-bottom: 24px;
 	padding-left: 12px;
-	font-size: 40px;
-	font-weight: 700;
+	font-size: 38px;
+	font-weight: 600;
 }
 
 .home-technologies-list-title::before {
@@ -36,7 +36,7 @@
 .home-technologies-list-level-competence {
 	margin-bottom: 12px;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .home-technologies-list-items {

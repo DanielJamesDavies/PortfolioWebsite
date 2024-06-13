@@ -11,8 +11,8 @@
 	position: relative;
 	margin-bottom: 24px;
 	padding-left: 12px;
-	font-size: 40px;
-	font-weight: 700;
+	font-size: 38px;
+	font-weight: 600;
 }
 
 .footer-title::before {
@@ -116,7 +116,7 @@
 
 .footer-download-cv-btn-label {
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .footer-download-cv-btn-icon {

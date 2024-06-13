@@ -1,7 +1,7 @@
 .home-headline {
 	padding: 12px 0;
 	font-size: 75px;
-	font-weight: 700;
+	font-weight: 600;
 	color: var(--text-colour-primary);
 	text-align: left;
 	transition: 0.2s;

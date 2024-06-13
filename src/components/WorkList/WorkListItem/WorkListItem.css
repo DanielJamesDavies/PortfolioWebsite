@@ -138,7 +138,7 @@
 	background: var(--colour-grey-secondary);
 	color: var(--text-colour-primary);
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: 1px;
 	transition: 0.2s;
 	opacity: 0.3;
@@ -155,8 +155,8 @@
 .work-list-item-title {
 	margin: 24px 0;
 	margin-bottom: -6px;
-	font-size: 32px;
-	font-weight: 700;
+	font-size: 30px;
+	font-weight: 600;
 }
 
 .work-list-item-links {
@@ -164,7 +164,7 @@
 	gap: 8px;
 	margin: 24px 0;
 	color: var(--text-colour-blue);
-	font-weight: 700;
+	font-weight: 600;
 	vertical-align: middle;
 }
 
@@ -176,7 +176,7 @@
 	background: var(--colour-blue-tint);
 	color: #fff;
 	font-size: 13px;
-	font-weight: 700;
+	font-weight: 600;
 	transition: 0.2s;
 	cursor: pointer;
 }
