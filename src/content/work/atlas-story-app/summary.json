@@ -3,7 +3,7 @@
 	"title": "Atlas Story App",
 	"siteUrl": "https://www.atlas-story.app/",
 	"codeUrl": "https://github.com/DanielJamesDavies/AtlasStoryApp",
-	"description": "A web app for story writers to store and share stories.",
+	"description": "A large web app for story writers to store and share stories.",
 	"tags": ["React", "JavaScript", "Node.js", "Express.js", "HTML", "CSS", "MongoDB", "Mongoose ODM", "Heroku"],
 	"images": [
 		"landing.png",
