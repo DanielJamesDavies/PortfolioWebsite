@@ -1,0 +1,7 @@
+{
+	"id": "turing-llm-1.0",
+	"title": "Turing-LLM-1.0-254M",
+	"description": "Trained an LLM from initialization on a synthetic dataset.\n\n~254M Parameters, 12 Layers, SwiGLU Activation Function, Multi-Head Attention with 16 Heads\n\nCreated a synthetic dataset using outputs from Phi-3 Mini and used data augmentation to expand the dataset to 2B tokens.\n\nCurrently training Sparse Autoencoders on the residuals of each layer for interpretability research.",
+	"tags": ["Python", "Pytorch", "Hugging Face Transformers", "NumPy"],
+	"images": ["Turing-LLM-1.0-254M Examples.png"]
+}
