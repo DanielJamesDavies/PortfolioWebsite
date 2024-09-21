@@ -38,6 +38,14 @@ export const HeaderLogic = () => {
 	}
 
 	function navigateToCurriculumVitae(e) {
+		const is_mobile = [/Android/i, /webOS/i, /iPhone/i, /iPad/i, /iPod/i, /BlackBerry/i, /Windows Phone/i].some((device) =>
+			navigator.userAgent.match(device)
+		);
+		if (is_mobile) {
+			navigateTo("CV Daniel Davies.pdf", e.button === 1, true);
+			return false;
+		}
+
 		navigateTo("/cv", e.button === 1);
 		setIsDisplayingPages(false);
 	}
