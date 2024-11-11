@@ -6,7 +6,7 @@
 	text-align: left;
 	transition: 0.2s;
 	max-width: 1300px;
-	background: linear-gradient(180deg, #4af -5%, #fff, #ccc);
+	background: linear-gradient(180deg, #4af 15%, #fff, #ccc);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

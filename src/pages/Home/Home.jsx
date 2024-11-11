@@ -14,8 +14,8 @@ export const Home = () => {
 					<Subheadline />
 				</div>
 			</div>
-			<TechnologiesList />
 			<WorkList />
+			<TechnologiesList />
 		</div>
 	);
 };

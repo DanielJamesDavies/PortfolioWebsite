@@ -5,13 +5,13 @@ export const Subheadline = () => {
 		<div className='home-subheadline'>
 			<div className='home-subheadline-text'>
 				<div className='home-subheadline-line-break' />
-				Predicted Distinction in Artificial Intelligence MSc
+				Passionate About Building AI to Solve Complex Real-World Problems for Both Business and Humanity
 				<div className='home-subheadline-line-break' />
-				Currently Doing Mechanistic Interpretability Research
+				Currently Conducting Mechanistic Interpretability Research and Building Applied-AI Tools
+				<div className='home-subheadline-line-break' />
+				Artificial Intelligence MSc (Predicted Distinction)
 				<div className='home-subheadline-line-break' />
 				Computer Science (Artificial Intelligence) BSc with First Class Honours
-				<div className='home-subheadline-line-break' />
-				Passionate About Building AI to Solve Our Largest Problems and to Maximise Ability for All
 			</div>
 		</div>
 	);
