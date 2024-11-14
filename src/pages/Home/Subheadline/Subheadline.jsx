@@ -9,9 +9,7 @@ export const Subheadline = () => {
 				<div className='home-subheadline-line-break' />
 				Currently Conducting Mechanistic Interpretability Research and Building Applied-AI Tools
 				<div className='home-subheadline-line-break' />
-				Artificial Intelligence MSc (Distinction)
-				<div className='home-subheadline-line-break' />
-				Computer Science (AI) BSc with First Class Honours
+				Artificial Intelligence MSc (Distinction) | Computer Science (AI) BSc (First Class Honours)
 			</div>
 		</div>
 	);
