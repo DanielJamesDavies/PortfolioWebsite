@@ -11,7 +11,7 @@ export const Subheadline = () => {
 				<div className='home-subheadline-line-break' />
 				Artificial Intelligence MSc (Distinction)
 				<div className='home-subheadline-line-break' />
-				Computer Science (Artificial Intelligence) BSc with First Class Honours
+				Computer Science (AI) BSc with First Class Honours
 			</div>
 		</div>
 	);
