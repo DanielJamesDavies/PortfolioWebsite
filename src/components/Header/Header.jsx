@@ -35,7 +35,7 @@ export const Header = () => {
 					👋
 				</div>
 				<div className='header-name-image-waving-hand-emoji-initial'>👋</div>
-				<div className='header-name-text'>Daniel J Davies</div>
+				<div className='header-name-text'>Daniel Davies</div>
 			</button>
 			<button className='header-hamburger' onClick={toggleIsDisplayingPages}>
 				<div className='header-hamburger-line'></div>
