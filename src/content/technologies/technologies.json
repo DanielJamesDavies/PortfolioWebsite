@@ -81,6 +81,10 @@
 					"image": "React.png"
 				},
 				{
+					"title": "Vite",
+					"image": "Vite.png"
+				},
+				{
 					"title": "Node.js",
 					"image": "NodeJS.png"
 				},
@@ -102,9 +106,6 @@
 				{
 					"title": "Socket.IO",
 					"image": "SocketIO.png"
-				},
-				{
-					"title": "Mongoose ODM"
 				}
 			]
 		},
