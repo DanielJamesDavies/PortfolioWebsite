@@ -1,18 +1,9 @@
 {
-	"id": "turing-llm-explorer",
-	"title": "Turing-LLM Explorer",
+	"id": "turing-explorer",
+	"title": "Turing Explorer",
 	"siteUrl": "https://turingexplorer.com/",
-	"codeUrl": "https://github.com/DanielJamesDavies/Turing-LLM-Explorer",
+	"codeUrl": "https://github.com/DanielJamesDavies/Turing-Explorer-Back-End",
 	"description": "A mechanistic interpretability tool to understand the internals of Turing-LLM, a large language model.\n\nUsing this tool, one can navigate the Sparse Autoencoder latent space of Turing-LLM-1.0-254M and gain an understanding of how these large language models may function internally.\n\nRun inference on Turing-LLM and view connections between top latents to better understand how latents work together to form thoughts.",
 	"tags": ["Python", "Pytorch", "NumPy", "Flask", "React", "JavaScript", "CSS"],
-	"images": [
-		"explorer-connections-1.png",
-		"explorer-connections-2.png",
-		"explorer-latent-2.png",
-		"explorer-latent-3.png",
-		"explorer-latent-4.png",
-		"explorer-latent-1.png",
-		"website.gif",
-		"turing-loss.png"
-	]
+	"images": ["gen3.png", "gen1.png", "gen2.png", "gen4.png", "search1.png", "search2.png", "search3.png", "search4.png", "landing.png"]
 }
