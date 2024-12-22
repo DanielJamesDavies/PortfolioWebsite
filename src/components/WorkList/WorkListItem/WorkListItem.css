@@ -272,14 +272,8 @@
 		width: 100%;
 	}
 
-	.work-list-item-title {
-		margin-top: 12px;
-		font-size: 24px;
-	}
-
 	.work-list-item-links {
-		margin-top: 8px;
-		margin-bottom: 8px;
+		margin-top: 24px;
 	}
 
 	.work-list-item-links-item {

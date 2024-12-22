@@ -24,7 +24,6 @@
 	.page::before {
 		top: -90px;
 		right: -450px;
-		opacity: 0.3;
 	}
 }
 
@@ -45,7 +44,6 @@
 	.page::after {
 		bottom: -140px;
 		left: -450px;
-		opacity: 0.3;
 	}
 }
 
