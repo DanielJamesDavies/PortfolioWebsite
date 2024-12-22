@@ -16,8 +16,9 @@
 	display: block;
 	content: "";
 	width: 100%;
-	height: 2px;
-	background: var(--colour-grey-secondary);
+	height: 1px;
+	background: var(--colour-grey-tertiary);
+	opacity: 0.5;
 }
 
 .work-list-item:last-child::after {
