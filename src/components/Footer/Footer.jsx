@@ -49,7 +49,7 @@ export const Footer = () => {
 			<div className='footer-copyright'>
 				<div>Copyright</div>
 				<div className='footer-copyright-symbol'>©</div>
-				<div>{new Date().getFullYear()} Daniel James Davies</div>
+				<div>{new Date().getFullYear()} Daniel J Davies</div>
 			</div>
 		</div>
 	);

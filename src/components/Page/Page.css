@@ -97,15 +97,23 @@
 .page-background-emoji-container:nth-child(2) {
 	top: -280px;
 	right: 540px;
-	font-size: 230px;
-	transform: rotate(25deg);
+	font-size: 245px;
+	transform: rotate(30deg);
 	filter: hue-rotate(15deg);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
 	.page-background-emoji-container:nth-child(2) {
 		top: -280px;
 		right: 35dvw;
+	}
+}
+
+@media (max-width: 600px) {
+	.page-background-emoji-container:nth-child(2) {
+		transform: rotate(35deg);
+		right: 28dvw;
+		font-size: 210px;
 	}
 }
 

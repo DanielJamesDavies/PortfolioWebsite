@@ -5,26 +5,15 @@
 	padding-bottom: 48px;
 	width: calc(100% - (2 * var(--page-padding)));
 	max-width: var(--max-width);
+	font-weight: 300;
 }
 
 .footer-title {
 	position: relative;
 	margin-bottom: 24px;
 	padding-left: 12px;
-	font-size: 38px;
-	font-weight: 600;
-}
-
-.footer-title::before {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(calc(-50% + 1px));
-	display: block;
-	content: "";
-	width: 4px;
-	height: calc(100% - 8px);
-	background: linear-gradient(180deg, var(--colour-blue-tint), var(--colour-blue));
+	font-size: 28px;
+	font-weight: 300;
 }
 
 .footer-section-1 {
@@ -39,13 +28,13 @@
 .footer-links-title,
 .footer-download-cv-btn-title {
 	margin-bottom: 2px;
-	font-size: 16px;
+	font-size: 15px;
 	color: var(--text-colour-secondary);
 }
 
 .footer-email {
 	line-height: 36px;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 .footer-links {

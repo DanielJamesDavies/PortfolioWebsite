@@ -11,20 +11,8 @@
 	position: relative;
 	margin-bottom: 24px;
 	padding-left: 12px;
-	font-size: 38px;
-	font-weight: 600;
-}
-
-.home-technologies-list-title::before {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(calc(-50% + 1px));
-	display: block;
-	content: "";
-	width: 4px;
-	height: calc(100% - 8px);
-	background: var(--text-colour-blue);
+	font-size: 28px;
+	font-weight: 300;
 }
 
 .home-technologies-list-level {
@@ -36,7 +24,7 @@
 .home-technologies-list-level-competence {
 	margin-bottom: 12px;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 .home-technologies-list-items {
