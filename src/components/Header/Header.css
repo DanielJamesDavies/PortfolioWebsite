@@ -38,14 +38,14 @@
 	background: transparent;
 	color: var(--text-colour-primary);
 	font-size: 28px;
-	font-weight: 700;
-	font-weight: 700;
+	font-weight: 600;
 	transition: 0.2s;
 	cursor: pointer;
 	text-align: left;
 }
 
 .header-name-text {
+	font-weight: 600;
 	background: linear-gradient(180deg, #04f -120%, #fff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
