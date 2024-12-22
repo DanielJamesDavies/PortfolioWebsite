@@ -9,7 +9,7 @@ export const WorkList = () => {
 
 	return (
 		<div className='work-list-container'>
-			<div className='work-list-title'>Work</div>
+			<div className='work-list-title'>My Work</div>
 			<div className='work-list-items'>
 				{workList.map((workListItem, index) => (
 					<WorkListItem key={index} item={workListItem} />

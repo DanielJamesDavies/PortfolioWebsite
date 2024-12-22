@@ -1,11 +1,3 @@
-.home-primary {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: min(70vh, 460px);
-}
-
 .home-page .work-list-container {
 	margin-top: 24px;
 	margin-bottom: 24px;
@@ -13,26 +5,13 @@
 
 .home-page .work-list-title {
 	position: relative;
-	margin-bottom: 24px;
-	padding-left: 12px;
-	font-size: 38px;
-	font-weight: 600;
-}
-
-.home-page .work-list-title::before {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(calc(-50% + 1px));
-	display: block;
-	content: "";
-	width: 4px;
-	height: calc(100% - 8px);
-	background: linear-gradient(180deg, var(--colour-blue-tint), var(--colour-blue));
+	margin-bottom: 12px;
+	font-size: 28px;
+	font-weight: 300;
 }
 
 .home-page .work-list-items {
-	--worklistitem-padding: 16px;
+	--worklistitem-padding: 0px;
 }
 
 @media (max-width: 768px) {

@@ -1,26 +1,15 @@
 .work-page .work-list-container {
-	margin-top: 24px;
+	margin-top: 12px;
 }
 
 .work-page .work-list-title {
 	margin-bottom: 24px;
-	font-size: 40px;
-	font-weight: 600;
-}
-
-@media (max-width: 1200px) {
-	.work-page .work-list-title {
-		font-size: 4.16vw;
-	}
+	font-size: 28px;
+	font-weight: 300;
 }
 
 @media (max-width: 768px) {
 	.work-page .work-list-container {
 		margin-top: 0;
-	}
-
-	.work-page .work-list-title {
-		margin-top: 24px;
-		font-size: 40px;
 	}
 }

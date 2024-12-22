@@ -1,5 +1,3 @@
-import { FaArrowDown } from "react-icons/fa";
-
 import { FooterLogic } from "./FooterLogic";
 
 import "./Footer.css";
