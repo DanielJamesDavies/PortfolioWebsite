@@ -61,48 +61,59 @@ export const WorkListItem = ({ item }) => {
 				</div>
 			)}
 			<div className='work-list-item-details-container'>
-				<div className='work-list-item-title'>{item.title}</div>
-				<div className='work-list-item-description'>{item.description}</div>
-				{item.siteUrl === undefined && item.codeUrl === undefined ? null : (
-					<div className='work-list-item-links'>
-						{item.siteUrl === undefined ? null : (
-							<button
-								className='work-list-item-links-item'
-								onClick={navigateToSite}
-								onAuxClick={navigateToSite}
-								onMouseDown={(e) => e.preventDefault()}
-							>
-								<div>View Site</div>
-							</button>
-						)}
-						{item.demoUrl === undefined ? null : (
-							<button
-								className='work-list-item-links-item'
-								onClick={navigateToDemo}
-								onAuxClick={navigateToDemo}
-								onMouseDown={(e) => e.preventDefault()}
-							>
-								<div>View Demo</div>
-							</button>
-						)}
-						{item.codeUrl === undefined ? null : (
-							<button
-								className='work-list-item-links-item'
-								onClick={navigateToCode}
-								onAuxClick={navigateToCode}
-								onMouseDown={(e) => e.preventDefault()}
-							>
-								<div>Source Code</div>
-							</button>
-						)}
-					</div>
-				)}
-				<div className='work-list-item-tags'>
-					{item?.tags?.map((tag, index) => (
-						<div key={index} className='work-list-item-tags-item'>
-							{tag}
+				<div className='work-list-item-details'>
+					<div className='work-list-item-title'>{item.title}</div>
+					<div className='work-list-item-second-title'>{item.second_title}</div>
+					{
+						<div
+							className={
+								"work-list-item-links" +
+								(item.siteUrl === undefined && item.demoUrl === undefined && item.codeUrl === undefined
+									? " work-list-item-links-empty"
+									: "")
+							}
+						>
+							{item.siteUrl === undefined ? null : (
+								<button
+									className='work-list-item-links-item'
+									onClick={navigateToSite}
+									onAuxClick={navigateToSite}
+									onMouseDown={(e) => e.preventDefault()}
+								>
+									<div>Try Now</div>
+								</button>
+							)}
+							{item.demoUrl === undefined ? null : (
+								<button
+									className='work-list-item-links-item'
+									onClick={navigateToDemo}
+									onAuxClick={navigateToDemo}
+									onMouseDown={(e) => e.preventDefault()}
+								>
+									<div>Watch Demo</div>
+								</button>
+							)}
+							{item.codeUrl === undefined ? null : (
+								<button
+									className='work-list-item-links-item'
+									onClick={navigateToCode}
+									onAuxClick={navigateToCode}
+									onMouseDown={(e) => e.preventDefault()}
+								>
+									<div>Source Code</div>
+								</button>
+							)}
 						</div>
-					))}
+					}
+					<div className='work-list-item-description'>{item.description}</div>
+					<div className='work-list-item-tags-title'>Tools and Technologies</div>
+					<div className='work-list-item-tags'>
+						{item?.tags?.map((tag, index) => (
+							<div key={index} className='work-list-item-tags-item'>
+								<div>{tag}</div>
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</div>

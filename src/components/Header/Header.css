@@ -290,14 +290,16 @@
 	position: absolute;
 	top: 28px;
 	right: -12px;
-	padding: 4px 6px;
+	padding: 6px 10px;
+	border: 1px solid #555;
 	border-radius: 5px;
 	background: var(--colour-grey-secondary);
 	color: #fff;
 	text-align: left;
+	transition: 0.2s;
 	opacity: 0;
+	line-height: 1.1rem;
 	pointer-events: none;
-	transition-delay: 0.7s;
 }
 
 .header-link:hover .header-link-tooltip,

@@ -3,7 +3,7 @@
 	"title": "Apollo LLM Analyser",
 	"demoUrl": "https://youtu.be/jNSura9WWoY",
 	"codeUrl": "https://github.com/DanielJamesDavies/Apollo-LLM-Analyser",
-	"description": "A platform to help users conduct interpretability research.",
+	"description": "A web app build to help users conduct interpretability research.\n\nChat with Google's Gemma 7B and view layer activations on each generated token.\n\nIncludes an automated activation collection system accompanied by data visualizations for the gathered data.",
 	"tags": ["Python", "Flask", "Hugging Face Transformers", "JavaScript", "React", "NumPy", "Pandas"],
 	"images": [
 		"Apollo Demo 1 - frame at 0m49s.jpg",

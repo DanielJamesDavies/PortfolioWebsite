@@ -5,7 +5,7 @@
 }
 
 .home-subheadline-text {
-	background: linear-gradient(180deg, #fff, #9cf);
+	background: linear-gradient(180deg, #def, #9cf);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

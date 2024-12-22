@@ -9,6 +9,14 @@
 			"link": "mailto:danieljamesdavies12@gmail.com"
 		},
 		{
+			"id": "x",
+			"name": "X",
+			"title": "Follow Me on X",
+			"value": "@DanielJDavies",
+			"link": "https://x.com/DanielJDavies",
+			"image": "x.png"
+		},
+		{
 			"id": "github",
 			"name": "GitHub",
 			"title": "View My Code on GitHub",
@@ -21,16 +29,8 @@
 			"name": "LinkedIn",
 			"title": "Find Me on LinkedIn",
 			"value": "dan-james-davies",
-			"link": "https://www.linkedin.com/in/dan-james-davies/",
+			"link": "https://www.linkedin.com/in/daniel-james-davies/",
 			"image": "linkedin.png"
-		},
-		{
-			"id": "x",
-			"name": "X",
-			"title": "Follow Me on X",
-			"value": "@DanielJDavies",
-			"link": "https://x.com/DanielJDavies",
-			"image": "x.png"
 		}
 	]
 }

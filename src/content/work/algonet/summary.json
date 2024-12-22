@@ -1,8 +1,9 @@
 {
 	"id": "algonet",
-	"title": "Algonet / The Prediction of Energy Consumption of Algorithm Implementations",
+	"title": "Algonet",
+	"second_title": "The Prediction of Energy Consumption\n of Algorithm Implementations",
 	"codeUrl": "https://github.com/DanielJamesDavies/Algonet",
-	"description": "Produced an NN model that predicts energy consumptions of algorithm implementations.",
+	"description": "Trained a neural network to predict the energy consumption of algorithm implementations.\n\nBuild a tool to upload code, predict energy consumption of code, and search for energy efficient code.",
 	"tags": ["Python", "PyTorch", "NumPy", "scikit-learn", "SciPy", "JavaScript", "Node.js"],
 	"images": [
 		"system_overview_diagram.png",

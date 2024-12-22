@@ -36,7 +36,6 @@ export const Footer = () => {
 					<div className='footer-email'>{contact.list.find((e) => e.id === "email")?.value}</div>
 				</div>
 				<div className='footer-download-cv-btn-container'>
-					<div className='footer-download-cv-btn-title'>Curriculum Vitae</div>
 					<button
 						className='footer-download-cv-btn'
 						onClick={onDownloadCVBtnClick}
@@ -44,8 +43,7 @@ export const Footer = () => {
 						onMouseDown={(e) => e.preventDefault()}
 					>
 						<div className='footer-download-cv-btn-content'>
-							<div className='footer-download-cv-btn-label'>Download Curriculum Vitae</div>
-							<FaArrowDown className='footer-download-cv-btn-icon' />
+							<div className='footer-download-cv-btn-label'>View Curriculum Vitae</div>
 						</div>
 					</button>
 				</div>
@@ -53,7 +51,7 @@ export const Footer = () => {
 			<div className='footer-copyright'>
 				<div>Copyright</div>
 				<div className='footer-copyright-symbol'>©</div>
-				<div>2024 Daniel James Davies</div>
+				<div>{new Date().getFullYear()} Daniel James Davies</div>
 			</div>
 		</div>
 	);
