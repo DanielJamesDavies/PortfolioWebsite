@@ -53,7 +53,7 @@
 .page-background-emoji-container:nth-child(2) {
 	top: -280px;
 	right: 540px;
-	font-size: 200px;
+	font-size: 240px;
 	transform: rotate(25deg);
 	filter: hue-rotate(15deg);
 }
@@ -68,7 +68,7 @@
 .page-background-emoji-container:nth-child(3) {
 	top: 270px;
 	left: 200px;
-	font-size: 170px;
+	font-size: 120px;
 	transform: rotate(5deg);
 }
 
@@ -76,7 +76,7 @@
 	top: -40px;
 	right: 220px;
 	font-size: 140px;
-	transform: scaleX(-1) rotate(40deg);
+	transform: scaleX(-1) rotate(-10deg);
 	opacity: 0.7;
 }
 
@@ -96,7 +96,7 @@
 .page-background-emoji-container:nth-child(5) {
 	top: 180px;
 	right: 530px;
-	font-size: 140px;
+	font-size: 130px;
 	transform: rotate(20deg);
 }
 
@@ -124,6 +124,33 @@
 @media (max-width: 1200px) {
 	.page-background-emoji-container:nth-child(6) {
 		right: 120px;
+	}
+}
+
+.page-background-emoji-container:nth-child(7) {
+	top: 240px;
+	right: 260px;
+	font-size: 100px;
+	transform: rotate(-4deg);
+}
+
+@media (max-width: 1200px) {
+	.page-background-emoji-container:nth-child(7) {
+		display: none;
+	}
+}
+
+.page-background-emoji-container:nth-child(8) {
+	top: 22px;
+	right: 520px;
+	font-size: 90px;
+	transform: scaleX(-1) rotate(20deg);
+	opacity: 0.7;
+}
+
+@media (max-width: 1450px) {
+	.page-background-emoji-container:nth-child(8) {
+		display: none;
 	}
 }
 

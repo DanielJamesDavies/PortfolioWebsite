@@ -18,16 +18,22 @@ export const Page = ({ element }) => {
 						<div className='page-background-emoji'>☄️</div>
 					</div>
 					<div className='page-background-emoji-container'>
-						<div className='page-background-emoji'>🦾</div>
+						<div className='page-background-emoji'>📘</div>
 					</div>
 					<div className='page-background-emoji-container'>
-						<div className='page-background-emoji'>🧠</div>
+						<div className='page-background-emoji'>🦾</div>
 					</div>
 					<div className='page-background-emoji-container'>
 						<div className='page-background-emoji'>🛰️</div>
 					</div>
 					<div className='page-background-emoji-container'>
 						<div className='page-background-emoji'>🥼</div>
+					</div>
+					<div className='page-background-emoji-container'>
+						<div className='page-background-emoji'>🔭</div>
+					</div>
+					<div className='page-background-emoji-container'>
+						<div className='page-background-emoji'>💻</div>
 					</div>
 				</div>
 				<div className='page-background-emoji-stars'>
