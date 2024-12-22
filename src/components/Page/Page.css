@@ -7,9 +7,51 @@
 	min-height: var(--full-vh);
 }
 
-.page-background {
+.page::before {
 	position: fixed;
 	z-index: -1;
+	top: -90px;
+	right: -400px;
+	display: block;
+	content: "";
+	width: 800px;
+	height: 1000px;
+	background: radial-gradient(var(--colour-blue), #0000 50%);
+	opacity: 0.25;
+}
+
+@media (max-width: 600px) {
+	.page::before {
+		top: -90px;
+		right: -450px;
+		opacity: 0.3;
+	}
+}
+
+.page::after {
+	position: fixed;
+	z-index: -1;
+	bottom: -100px;
+	left: -400px;
+	display: block;
+	content: "";
+	width: 800px;
+	height: 1000px;
+	background: radial-gradient(var(--colour-blue), #0000 50%);
+	opacity: 0.2;
+}
+
+@media (max-width: 600px) {
+	.page::after {
+		bottom: -140px;
+		left: -450px;
+		opacity: 0.3;
+	}
+}
+
+.page-background {
+	position: fixed;
+	z-index: -2;
 	top: 0;
 	left: 0;
 	width: 100dvw;
@@ -17,6 +59,10 @@
 	overflow: hidden;
 	pointer-events: none;
 	user-select: none;
+}
+
+.page-background-hidden .page-background {
+	display: none;
 }
 
 .page-background-emojis,
