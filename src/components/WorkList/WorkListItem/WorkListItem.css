@@ -18,7 +18,7 @@
 	width: 100%;
 	height: 1px;
 	background: var(--colour-grey-tertiary);
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 .work-list-item:last-child::after {
