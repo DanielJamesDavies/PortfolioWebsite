@@ -97,7 +97,7 @@
 .page-background-emoji-container:nth-child(2) {
 	top: -280px;
 	right: 540px;
-	font-size: 240px;
+	font-size: 230px;
 	transform: rotate(25deg);
 	filter: hue-rotate(15deg);
 }
