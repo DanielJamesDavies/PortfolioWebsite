@@ -1,6 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+@font-face {
+	font-family: "Inter";
+	src: url("./content/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+	font-weight: 100 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("./content/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+	font-weight: 100 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Noto Color Emoji";
+	src: url("./content/fonts/NotoColorEmoji/NotoColorEmoji-Regular.ttf") format("truetype");
+	font-weight: 100 900;
+	font-style: normal;
+}
 
 :root {
 	--colour-grey-primary: #000;
@@ -36,8 +53,6 @@ body {
 	margin: 0;
 	background: var(--colour-grey-primary);
 	color: var(--text-colour-primary);
-	font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
-	font-family: "Muli", -apple-system, "Segoe UI", sans-serif;
 	font-family: "Inter", -apple-system, "Segoe UI", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -46,8 +61,6 @@ body {
 
 button,
 button:focus {
-	font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
-	font-family: "Muli", -apple-system, "Segoe UI", sans-serif;
 	font-family: "Inter", -apple-system, "Segoe UI", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
