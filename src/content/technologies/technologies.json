@@ -1,174 +1,177 @@
 {
-	"list": [
-		{
-			"compentence": "Languages",
-			"technologies": [
-				{
-					"title": "Python",
-					"image": "Python.png"
-				},
-				{
-					"title": "JavaScript",
-					"image": "JavaScript.png"
-				},
-				{
-					"title": "R",
-					"image": "R.png"
-				},
-				{
-					"title": "Make",
-					"image": "Make.png"
-				},
-				{
-					"title": "HTML",
-					"image": "HTML.png"
-				},
-				{
-					"title": "CSS",
-					"image": "CSS.png"
-				},
-				{
-					"title": "Java",
-					"image": "Java.png"
-				},
-				{
-					"title": "Lua",
-					"image": "Lua.png"
-				}
-			]
-		},
-		{
-			"compentence": "Libraries (Non-Exhaustive)",
-			"technologies": [
-				{
-					"title": "PyTorch",
-					"image": "PyTorch.png"
-				},
-				{
-					"title": "TensorFlow",
-					"image": "TensorFlow.png"
-				},
-				{
-					"title": "Hugging Face Transformers",
-					"image": "HuggingFace.png"
-				},
-				{
-					"title": "NumPy",
-					"image": "NumPy.png"
-				},
-				{
-					"title": "Pandas",
-					"image": "Pandas.png"
-				},
-				{
-					"title": "scikit-learn",
-					"image": "sci-kit-learn.png"
-				},
-				{
-					"title": "Matplotlib",
-					"image": "Matplotlib.png"
-				},
-				{
-					"title": "Flask",
-					"image": "Flask.png"
-				},
-				{
-					"title": "ggplot2",
-					"image": "ggplot2.png"
-				},
-				{
-					"title": "React",
-					"image": "React.png"
-				},
-				{
-					"title": "Vite",
-					"image": "Vite.png"
-				},
-				{
-					"title": "Node.js",
-					"image": "NodeJS.png"
-				},
-				{
-					"title": "Express.js"
-				},
-				{
-					"title": "Chart.js",
-					"image": "ChartJs.png"
-				},
-				{
-					"title": "Three.js",
-					"image": "ThreeJs.png"
-				},
-				{
-					"title": "Electron.js",
-					"image": "ElectronJS.png"
-				},
-				{
-					"title": "Socket.IO",
-					"image": "SocketIO.png"
-				}
-			]
-		},
-		{
-			"compentence": "Miscellaneous",
-			"technologies": [
-				{
-					"title": "Model Prompting",
-					"image": "nn.png"
-				},
-				{
-					"title": "Google Cloud Platform",
-					"image": "GCP.png"
-				},
-				{
-					"title": "Tableau",
-					"image": "Tableau.png"
-				},
-				{
-					"title": "MongoDB",
-					"image": "MongoDB.png"
-				},
-				{
-					"title": "MySQL",
-					"image": "MySQL.png"
-				},
-				{
-					"title": "Git",
-					"image": "Git.png"
-				},
-				{
-					"title": "GitHub",
-					"image": "GitHub.png"
-				},
-				{
-					"title": "Trello",
-					"image": "Trello.png"
-				},
-				{
-					"title": "Figma",
-					"image": "Figma.png"
-				},
-				{
-					"title": "Visual Paradigm",
-					"image": "VisualParadigm.png"
-				},
-				{
-					"title": "Postman",
-					"image": "Postman.png"
-				},
-				{
-					"title": "Heroku",
-					"image": "Heroku.png"
-				},
-				{
-					"title": "Netlify",
-					"image": "Netlify.png"
-				},
-				{
-					"title": "Firebase",
-					"image": "Firebase.png"
-				}
-			]
-		}
-	]
+  "list": [
+    {
+      "compentence": "Languages",
+      "technologies": [
+        {
+          "title": "Python",
+          "image": "Python.png"
+        },
+        {
+          "title": "TypeScript",
+          "image": "TypeScript.png"
+        },
+        {
+          "title": "R",
+          "image": "R.png"
+        },
+        {
+          "title": "Make",
+          "image": "Make.png"
+        },
+        {
+          "title": "HTML",
+          "image": "HTML.png"
+        },
+        {
+          "title": "CSS",
+          "image": "CSS.png"
+        },
+        {
+          "title": "Java",
+          "image": "Java.png"
+        },
+        {
+          "title": "Lua",
+          "image": "Lua.png"
+        }
+      ]
+    },
+    {
+      "compentence": "Libraries (Non-Exhaustive)",
+      "technologies": [
+        {
+          "title": "PyTorch",
+          "image": "PyTorch.png"
+        },
+        {
+          "title": "TensorFlow",
+          "image": "TensorFlow.png"
+        },
+        {
+          "title": "Hugging Face Transformers",
+          "image": "HuggingFace.png"
+        },
+        {
+          "title": "NumPy",
+          "image": "NumPy.png"
+        },
+        {
+          "title": "Pandas",
+          "image": "Pandas.png"
+        },
+        {
+          "title": "scikit-learn",
+          "image": "sci-kit-learn.png"
+        },
+        {
+          "title": "Matplotlib",
+          "image": "Matplotlib.png"
+        },
+        {
+          "title": "Flask",
+          "image": "Flask.png"
+        },
+        {
+          "title": "ggplot2",
+          "image": "ggplot2.png"
+        },
+        {
+          "title": "React",
+          "image": "React.png"
+        },
+        {
+          "title": "Vite",
+          "image": "Vite.png"
+        },
+        {
+          "title": "Node.js",
+          "image": "NodeJS.png"
+        },
+        {
+          "title": "Express.js"
+        },
+        {
+          "title": "Chart.js",
+          "image": "ChartJs.png"
+        },
+        {
+          "title": "Three.js",
+          "image": "ThreeJs.png"
+        },
+        {
+          "title": "Electron.js",
+          "image": "ElectronJS.png"
+        },
+        {
+          "title": "Socket.IO",
+          "image": "SocketIO.png"
+        }
+      ]
+    },
+    {
+      "compentence": "Miscellaneous",
+      "technologies": [
+        {
+          "title": "Model Prompting",
+          "image": "nn.png"
+        },
+        {
+          "title": "Google Cloud Platform",
+          "image": "GCP.png"
+        },
+        {
+          "title": "Azure",
+          "image": "Azure.png"
+        },
+        {
+          "title": "SQL"
+        },
+        {
+          "title": "MongoDB",
+          "image": "MongoDB.png"
+        },
+        {
+          "title": "Tableau",
+          "image": "Tableau.png"
+        },
+        {
+          "title": "Git",
+          "image": "Git.png"
+        },
+        {
+          "title": "GitHub",
+          "image": "GitHub.png"
+        },
+        {
+          "title": "Trello",
+          "image": "Trello.png"
+        },
+        {
+          "title": "Figma",
+          "image": "Figma.png"
+        },
+        {
+          "title": "Visual Paradigm",
+          "image": "VisualParadigm.png"
+        },
+        {
+          "title": "Postman",
+          "image": "Postman.png"
+        },
+        {
+          "title": "Heroku",
+          "image": "Heroku.png"
+        },
+        {
+          "title": "Netlify",
+          "image": "Netlify.png"
+        },
+        {
+          "title": "Firebase",
+          "image": "Firebase.png"
+        }
+      ]
+    }
+  ]
 }
