@@ -35,8 +35,8 @@
 
 .details-hand-waving-emoji {
   position: relative;
-  margin-top: -12px;
-  transform: rotate(20deg);
+  margin-top: -10px;
+  transform: rotate(4deg);
   animation-fill-mode: forwards;
   transform-origin: center bottom;
 }
