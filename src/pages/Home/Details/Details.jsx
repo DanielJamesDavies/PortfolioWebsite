@@ -51,7 +51,7 @@ export const Details = () => {
             <a href="https://turingexplorer.com" target="_blank" rel="noopener noreferrer">
               turingexplorer.com
             </a>
-            ) with optimised TTFB &lt;1s, search 491,520 latents in ~3s (≤9s), and circuit generation ~3s.
+            ) with optimised inference TTFB &lt;1s, search 491,520 latents in ~3s (≤9s), and circuit generation ~3s.
           </li>
           <li>
             Shipped <b>40+ production apps/automations</b>, common flows cut from hours/days to minutes/seconds.
