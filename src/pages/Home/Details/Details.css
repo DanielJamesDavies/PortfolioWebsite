@@ -1,74 +1,98 @@
 .details {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 32px 0;
-	width: calc(100% + 2 * 16px);
-	margin-left: -16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 0;
+  width: calc(100% + 2 * 16px);
+  margin-left: -16px;
 }
 
 .details-item {
-	display: flex;
-	gap: 8px;
-	flex-direction: column;
-	font-weight: 300;
-	width: 50%;
-	padding: 16px;
-	box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  font-weight: 300;
+  width: 50%;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 900px) {
-	.details {
-		flex-direction: column;
-	}
+  .details {
+    flex-direction: column;
+  }
 
-	.details-item {
-		width: unset;
-	}
+  .details-item {
+    width: unset;
+  }
 }
 
 .details-title {
-	display: flex;
-	gap: 6px;
-	align-items: center;
-	font-size: 28px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 28px;
 }
 
 .details-hand-waving-emoji {
-	position: relative;
-	margin-top: -12px;
-	transform: rotate(20deg);
-	animation-fill-mode: forwards;
-	transform-origin: center bottom;
+  position: relative;
+  margin-top: -12px;
+  transform: rotate(20deg);
+  animation-fill-mode: forwards;
+  transform-origin: center bottom;
 }
 
 .details-subtitle {
-	display: flex;
-	gap: 6px;
-	align-items: center;
-	font-size: 20px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 2px;
 }
 
 .details-item-status-item {
-	display: flex;
-	gap: 6px;
-	align-items: center;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 6px;
 }
 
-.details-item-status-item > span:nth-child(1) {
-	flex-shrink: 0;
-	font-size: 13px;
-	width: 80px;
-	text-align: center;
+.details-item-status-item-icon {
+  font-size: 24px;
 }
 
-.details-item-status-item > span:nth-child(2) {
-	font-size: 24px;
+.details-item-status-item-icon img {
+  border-radius: 4px;
+  margin: 0 5px;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
 }
 
-.details-item-education img {
-	border-radius: 4px;
-	margin: 0 5px;
-	width: 28px;
-	height: 28px;
-	object-fit: cover;
+.details-item-status-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.details-item-status-item-text > div:nth-child(1) {
+  font-size: 16px;
+}
+
+.details-item-status-item-text > div:nth-child(2) {
+  font-size: 14px;
+}
+
+.details-item ul {
+  margin: 0;
+}
+
+.details-item ul li {
+  margin-bottom: 6px;
+}
+
+.details-item ul li b {
+  font-weight: 600;
+}
+
+.details-item a {
+  color: #0077ff;
 }

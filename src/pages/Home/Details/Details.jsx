@@ -9,49 +9,76 @@ export const Details = () => {
           <div className="details-hand-waving-emoji">👋</div>
         </div>
         <div>I'm deeply interested in maximising the probability of the best possible future for all.</div>
-        <div>Passionate about building AI systems to solve complex real-world problems.</div>
+        <div>Passionate about building AI systems responsibly to solve complex real-world problems.</div>
       </div>
       <div className="details-item">
         <div className="details-subtitle">
-          <div>What I'm Up To</div>
+          <div>Experience & Education</div>
         </div>
         <div className="details-item-status-item">
-          <span>2022 - Now</span>
-          <span>👨‍💻</span>
-          <span>Full-Stack Applied-AI Engineer at Projekt Rising Ltd</span>
+          <div className="details-item-status-item-icon">👨‍💻</div>
+          <div className="details-item-status-item-text">
+            <div>Full-Stack Applied-AI Engineer at Projekt Rising Ltd</div>
+            <div>September 2022 - Present</div>
+          </div>
         </div>
         <div className="details-item-status-item">
-          <span>2025 - Now</span>
-          <span>🦾</span>
-          <span>Humanoid Robot Engineer</span>
+          <div className="details-item-status-item-icon">
+            <img src={require("../../../content/brunel.jpeg")} alt="" />
+          </div>
+          <div className="details-item-status-item-text">
+            <div>MSc Artificial Intelligence (Distinction)</div>
+            <div>Brunel University London | September 2023 - December 2024</div>
+          </div>
         </div>
         <div className="details-item-status-item">
-          <span>2023 - Now</span>
-          <span>🥼</span>
-          <span>Independent Mechanistic Interpretability Researcher</span>
+          <div className="details-item-status-item-icon">
+            <img src={require("../../../content/brunel.jpeg")} alt="" />
+          </div>
+          <div className="details-item-status-item-text">
+            <div>BSc Computer Science (Artificial Intelligence, First Class Honours)</div>
+            <div>Brunel University London | September 2019 - July 2022</div>
+          </div>
         </div>
+      </div>
+      <div className="details-item">
+        <div className="details-subtitle">
+          <div>Highlights</div>
+        </div>
+        <ul>
+          <li>
+            Built latent explorer (
+            <a href="https://turingexplorer.com" target="_blank" rel="noopener noreferrer">
+              turingexplorer.com
+            </a>
+            ) with optimised TTFB &lt;1s, search 491,520 latents in ~3s (≤9s), and circuit generation ~3s.
+          </li>
+          <li>
+            Shipped <b>40+ production apps/automations</b>, common flows cut from hours/days to minutes/seconds.
+          </li>
+          <li>
+            <b>Trained 254M-param LLM</b> in &lt;2 GPU days (val. loss ~1.8).
+          </li>
+          <li>Generated 2B-token synthetic dataset.</li>
+        </ul>
       </div>
       <div className="details-item">
         <div className="details-subtitle">
           <div>Skills</div>
         </div>
-        <div>Machine Learning, Applied AI, Mechanistic Interpretability, Pre‑Training, Robotics</div>
-        <div>Python, PyTorch, NumPy, JavaScript, React, TypeScript, FastAPI, SQL, Agentic Workflows</div>
-      </div>
-      <div className="details-item details-item-education">
-        <div className="details-subtitle">
-          <div>Education</div>
-        </div>
-        <div className="details-item-status-item">
-          <span>2023 - 2024</span>
-          <img className="details-education-icon" src={require("../../../content/brunel.jpeg")} alt="" />
-          <div>MSc in Artificial Intelligence with Distinction at Brunel University London</div>
-        </div>
-        <div className="details-item-status-item">
-          <span>2019 - 2022</span>
-          <img className="details-education-icon" src={require("../../../content/brunel.jpeg")} alt="" />
-          <div>BSc in Computer Science (Artificial Intelligence) with First Class Honours</div>
-        </div>
+        <ul>
+          <li>
+            <b>ML/AI:</b> LLM pre-training & distillation, synthetic dataset generation, mechanistic interpretability (SAEs,feature labelling, circuit
+            discovery), evaluation, prompt/agentic systems, RAG, structured decoding,function calling, exploratory data analysis.
+          </li>
+          <li>
+            <b>Languages/Frameworks:</b> Python (PyTorch, TensorFlow, NumPy, FastAPI), JavaScript/TypeScript(React, Node), SQL, HTML/CSS, R, HF
+            Transformers.
+          </li>
+          <li>
+            <b>Infra & Observability:</b> GCP, Azure, Heroku, Linux, Git, CI/CD, metrics/logs/traces, cost control.
+          </li>
+        </ul>
       </div>
     </div>
     // <div class='details-texts'>
